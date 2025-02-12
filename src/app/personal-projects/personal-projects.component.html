@@ -1,0 +1,36 @@
+<div class="content">
+  <mat-card class="card_content" *ngFor="let project of personal_projects">
+    <mat-card-title class="card_title">{{ project.title }}</mat-card-title>
+    <p class="description">{{ project.short_description }}</p>
+
+    <div class="flex_languages">
+      <div class="languages" *ngFor="let language of project.languages" [ngStyle]="{'background-color': getLanguageColor(language)}">
+        {{ language }}
+      </div>
+    </div>
+
+    <mat-card-actions align="end">
+      <button mat-button (click)="toggleExpand(project.title)">
+        Plus de détails
+        <mat-icon>{{ isExpanded(project.title) ? 'expand_less' : 'expand_more' }}</mat-icon>
+      </button>
+    </mat-card-actions>
+
+    <mat-expansion-panel [expanded]="isExpanded(project.title)" hideToggle>
+      <mat-expansion-panel-header *ngIf="false"></mat-expansion-panel-header>
+      <p class="description">{{ project.description }}</p>
+
+      <div class="image-slider">
+        <button mat-icon-button (click)="prevImage(project.title, project.images)">
+          <mat-icon>chevron_left</mat-icon>
+        </button>
+
+        <img [src]="project.images[imageIndexes.get(project.title) ?? 0]" class="slider-image" />
+
+        <button mat-icon-button (click)="nextImage(project.title, project.images)">
+          <mat-icon>chevron_right</mat-icon>
+        </button>
+      </div>
+    </mat-expansion-panel>
+  </mat-card>
+</div>

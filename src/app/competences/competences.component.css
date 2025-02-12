@@ -1,0 +1,86 @@
+.content{
+  padding: 20px;
+}
+.title{
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.card_content{
+  margin-top: 20px;
+}
+.card_title{
+  margin: 10px 0 0 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.element{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  width: calc(33.33% - 40px);
+  max-width: 250px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: black 0px 0px 10px;
+  text-align: center;
+  align-items: center;
+  min-height: 240px
+}
+.flex_content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 40px 10px 40px;
+  gap: 20px;
+}
+
+.element_name {
+  margin-top: auto;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.imgs {
+  max-width: 100%;
+  height: auto;
+  min-height: 100px;
+  flex-grow: 1;
+  display: block;
+  object-fit: contain;
+}
+
+/* For screens up to 600px */
+@media (max-width: 600px){
+  .imgs{
+    width: 80px;
+  }
+  .element_name{
+        font-size: 15px;
+  }
+  .element{
+        width: calc(50% - 40px);
+  }
+  .element{
+    min-height: 200px;
+  }
+}
+
+/* For screens between 601px and 960px */
+@media (min-width: 601px) and (max-width: 960px){
+  .imgs{
+    width: 100px;
+  }
+}
+
+/* For screens larger than 961px */
+@media (min-width: 961px){
+  .imgs{
+    width: 120px;
+  }
+  .element{
+    min-height: 270px;
+  }
+}

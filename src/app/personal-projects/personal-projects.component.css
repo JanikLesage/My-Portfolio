@@ -1,0 +1,52 @@
+.content{
+  padding: 20px 200px 20px 200px;
+}
+.card_content{
+  margin-top: 20px;
+}
+.card_title{
+  text-align: center;
+  font-weight: bold;
+}
+.description{
+  text-align: center;
+}
+.flex_languages{
+  display: flex;
+  justify-content: center;
+}
+.languages{
+  min-width: 90px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+.image-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+  .slider-image {
+    max-width: 90%;
+    max-height: 400px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 960px) {
+  .content{
+    padding: 20px 50px 20px 50px;
+  }
+}
+
+@media (max-width: 650px) {
+  .content{
+    padding: 10px;
+  }
+  .description{
+    font-size: 14px
+  }
+}
+

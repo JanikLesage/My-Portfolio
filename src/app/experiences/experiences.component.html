@@ -1,0 +1,32 @@
+<div class="content">
+  <h1 class="title">Expériences diverses</h1>
+  <mat-card class="card_content" *ngFor="let experiences_diverses of experiences_diverses">
+    <mat-card-title class="card_title">{{experiences_diverses.name}}</mat-card-title>
+      <div class="flex_content">
+        <div class="img_content">
+          <img class="imgs" src="{{experiences_diverses.img}}" alt="{{experiences_diverses.alt}}" width="{{experiences_diverses.width}}">
+        </div>
+        <div class="flex_text">
+          <h3 class="main_text">Discipline: {{experiences_diverses.discipline}}</h3>
+          <h3 class="main_text">{{experiences_diverses.info}}</h3>
+        </div>
+        <h3 class="date">{{experiences_diverses.years}}</h3>
+      </div>
+  </mat-card>
+  <h1 class="title">Expériences professionnelles</h1>
+  <mat-card class="card_content" *ngFor="let experiences_professionnelles of experiences_professionnelles">
+    <mat-card-title class="card_title">{{experiences_professionnelles.name}}</mat-card-title>
+      <div class="flex_content">
+        <div class="img_content">
+          <img class="imgs" src="{{experiences_professionnelles.img}}" alt="{{experiences_professionnelles.alt}}" width="{{experiences_professionnelles.width}}">
+        </div>
+        <h3 class="job">{{experiences_professionnelles.job}}</h3>
+        <div class="flex_text">
+          <h3 class="main_text"><b>Référence: </b>{{experiences_professionnelles.reference_name}}</h3>
+          <h3 class="main_text"><b>Poste du référant: </b>{{experiences_professionnelles.reference_job}}</h3>
+          <h3 class="main_text">{{experiences_professionnelles.reference_phone}}</h3>
+        </div>
+        <h3 class="date">{{experiences_professionnelles.years}}</h3>
+      </div>
+  </mat-card>
+</div>

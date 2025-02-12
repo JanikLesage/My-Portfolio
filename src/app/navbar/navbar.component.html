@@ -1,0 +1,26 @@
+<div class="nav-content">
+  <mat-toolbar>
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item [routerLink]="['/home-screen']" routerLinkActive="active">Accueil</button>
+      <button mat-menu-item [routerLink]="['/experiences']" routerLinkActive="active">Expériences</button>
+      <button mat-menu-item [routerLink]="['/competences']" routerLinkActive="active">Compétences</button>
+      <button mat-menu-item [routerLink]="['/formations']" routerLinkActive="active">Formations</button>
+      <button mat-menu-item [routerLink]="['/personal-projects']" routerLinkActive="active">Projets Personnels</button>
+    </mat-menu>
+    <span id="title">Portfolio</span>
+    <span class="spacer"></span>
+    <button mat-icon-button class="contact_button" [routerLink]="['/contact-me']" routerLinkActive="active" aria-label="Contacter">
+      <mat-icon>contact_phone</mat-icon>
+    </button>
+    <button mat-icon-button class="documents_button" [matMenuTriggerFor]="documents" aria-label="Documents">
+      <mat-icon>description</mat-icon>
+    </button>
+    <mat-menu #documents="matMenu">
+      <button mat-menu-item>CV</button>
+      <button mat-menu-item>Lettre de recommandation</button>
+    </mat-menu>
+  </mat-toolbar>
+</div>

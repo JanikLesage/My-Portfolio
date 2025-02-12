@@ -1,0 +1,28 @@
+<div class="content">
+  <mat-card>
+    <mat-card-title class="card_title">Contacter moi!</mat-card-title>
+    <mat-card-content class="card_text">
+      Vous pouvez me contacter pour toute question ou offre d'emploi.
+    </mat-card-content>
+    <mat-card-actions class="buttons">
+      <a href="https://github.com/JanikLesage" target="_blank" rel="noopener noreferrer">
+        <button mat-icon-button class="button">
+          <img class="button_content" src="assets/images/github_icon.png" alt="Github" />
+        </button>
+      </a>
+      <a href="https://www.linkedin.com/in/janik-lesage" target="_blank" rel="noopener noreferrer">
+        <button mat-icon-button class="button">
+          <img class="button_content" src="assets/images/linkedin_icon.png" alt="LinkedIn" />
+        </button>
+      </a>
+      <button mat-icon-button class="button" (click)="callPhone()">
+        <mat-icon class="button_content">phone</mat-icon>
+      </button>
+      <a href="mailto:mrjaniklesage@gmail.com">
+        <button mat-icon-button class="button">
+          <mat-icon class="button_content">email</mat-icon>
+        </button>
+      </a>
+    </mat-card-actions>
+  </mat-card>
+</div>

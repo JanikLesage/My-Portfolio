@@ -1,0 +1,64 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+}
+.card_title {
+  margin-top: 0.2em;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.card_text {
+  color: #333;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* For screens up to 600px */
+@media (max-width: 600px) {
+  .card_title {
+    font-size: 2em;
+  }
+
+  .card_text {
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+}
+
+/* For screens between 601px and 960px */
+@media (max-width: 960px) {
+  .card_title {
+    font-size: 2.2em;
+  }
+
+  .card_text {
+    font-size: 1.1em;
+  }
+}
+
+/* For larger screens, default styling */
+@media (min-width: 961px) {
+  .card_title {
+    font-size: 2.5em;
+  }
+  .card_text {
+    font-size: 1.2em;
+  }
+}
