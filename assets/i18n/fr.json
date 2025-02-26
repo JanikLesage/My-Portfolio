@@ -1,5 +1,195 @@
 {
-  "HOME-SCREEN-SUBTITLE": "Bienvenue dans mon portfolio !",
-  "HOME-SCREEN-TEXT1": "Salut ! Je suis un développeur qui commence une maîtrise en informatique à l'Université du Québec à Trois-Rivières, avec une spécialisation en intelligence artificielle. Passionné par la programmation, je suis toujours à la recherche de nouveaux défis.",
-  "HOME-SCREEN-TEXT2": "J'ai de l'expérience en tant que développeur en intelligence artificielle et j'ai travaillé sur plusieurs projets, tant personnels que professionnels."
+  "HOME": {
+    "HTML": {
+      "TITLE": "Bienvenue dans mon portfolio !",
+      "TEXT1": "Salut ! Je suis un développeur qui commence une maîtrise en informatique à l'Université du Québec à Trois-Rivières, avec une spécialisation en intelligence artificielle. Passionné par la programmation, je suis toujours à la recherche de nouveaux défis.",
+      "TEXT2": "J'ai de l'expérience en tant que développeur en intelligence artificielle et j'ai travaillé sur plusieurs projets, tant personnels que professionnels."
+    },
+    "TS": {
+
+    }
+  },
+  "SKILLS":{
+    "HTML": {
+      "TITLE": "Compétences",
+      "CARD-TITLE-LANGUAGES-SPOKEN": "Langues parlées",
+      "CARD-TITLE-PROGRAMMING-LANGUAGES": "Langages de programmation",
+      "CARD-TITLE-IDE": "IDE",
+      "CARD-TITLE-FRAMEWORK": "Cadriciels",
+      "CARD-TITLE-GIT-TOOLS": "Outils Git",
+      "CARD-TITLE-GAME-ENGINES": "Moteur de jeu",
+      "CARD-TITLE-OS": "Systèmes d'exploitation",
+      "CARD-TITLE-DIVERSE-TALENTS": "Talents divers"
+    },
+    "TS": {
+      "FRAMEWORKS-ANGULAR-ALT": "Logo d'Angular",
+      "FRAMEWORKS-FLUTTER-ALT": "Logo de Flutter",
+      "FRAMEWORKS-DJANGO-ALT": "Logo de Django",
+      "LANGUAGE-SPOKEN-FRENCH": "Français",
+      "LANGUAGE-SPOKEN-ENGLISH": "Anglais",
+      "LANGUAGE-SPOKEN-SPANISH": "Espagnol",
+      "LANGUAGE-SPOKEN-FRENCH-ALT": "Drapeau de la France",
+      "LANGUAGE-SPOKEN-ENGLISH-ALT": "Drapeau du Royaume-Uni",
+      "LANGUAGE-SPOKEN-SPANISH-ALT": "Drapeau de l'Espagne",
+      "PROGRAMMING-LANGUAGE-JAVA-ALT": "Logo de Java",
+      "PROGRAMMING-LANGUAGE-JAVASCRIPT-ALT": "Logo de JavaScript",
+      "PROGRAMMING-LANGUAGE-TYPESCRIPT-ALT": "Logo de TypeScript",
+      "PROGRAMMING-LANGUAGE-HTML-ALT": "Logo de HTML",
+      "PROGRAMMING-LANGUAGE-CSS-ALT": "Logo de CSS",
+      "PROGRAMMING-LANGUAGE-SQL-ALT": "Logo de SQL",
+      "PROGRAMMING-LANGUAGE-PYTHON-ALT": "Logo de Python",
+      "PROGRAMMING-LANGUAGE-C-ALT": "Logo de C",
+      "PROGRAMMING-LANGUAGE-C#-ALT": "Logo de C#",
+      "PROGRAMMING-LANGUAGE-PHP-ALT": "Logo de PHP",
+      "PROGRAMMING-LANGUAGE-DART-ALT": "Logo de Dart",
+      "PROGRAMMING-LANGUAGE-XML-ALT": "Logo de XML",
+      "IDE-INTELLIJ-ALT": "Logo de INTELLIJ IDEA",
+      "IDE-VSCODE-ALT": "Logo de Visual Studio Code",
+      "IDE-ANDROID-STUDIO-ALT": "Logo de Android Studio",
+      "IDE-PYCHARM-ALT": "Logo de PyCharm",
+      "IDE-WEBSTORM-ALT": "Logo de WebStorm",
+      "IDE-RIDER-ALT": "Logo de Rider",
+      "GAME-ENGINE-UNITY-ALT": "Logo de Unity",
+      "OS-WINDOWS-ALT": "Logo de Windows",
+      "OS-LINUX-ALT": "Logo de Linux",
+      "OS-MAC-ALT": "Logo de MacOS",
+      "GIT-TOOLS-GIT-ALT": "Logo de Git",
+      "GIT-TOOLS-GITHUB-ALT": "Logo de GitHub",
+      "GIT-TOOLS-GITLAB-ALT": "Logo de GitLab",
+      "GIT-TOOLS-GITKRAKEN-ALT": "Logo de GitKraken",
+      "DIVERSE-TALENTS-AI": "Intelligence artificielle",
+      "DIVERSE-TALENTS-ARDUINO": "Arduino",
+      "DIVERSE-TALENTS-WORD": "Microsoft Word",
+      "DIVERSE-TALENTS-EXCEL": "Microsoft Excel",
+      "DIVERSE-TALENTS-POWERPOINT": "Microsoft PowerPoint",
+      "DIVERSE-TALENTS-ONSHAPE": "OnShape",
+      "DIVERSE-TALENTS-MICRO-WELDING": "Micro-soudure",
+      "DIVERSE-TALENTS-PHYSICAL-STRENGTH": "Force physique",
+      "DIVERSE-TALENTS-PERFECTIONISM": "Perfectionnisme",
+      "DIVERSE-TALENTS-AI-ALT": "Logo d'intelligence artificielle",
+      "DIVERSE-TALENTS-ARDUINO-ALT": "Logo d'Arduino",
+      "DIVERSE-TALENTS-WORD-ALT": "Logo de Word",
+      "DIVERSE-TALENTS-EXCEL-ALT": "Logo de Excel",
+      "DIVERSE-TALENTS-POWERPOINT-ALT": "Logo de PowerPoint",
+      "DIVERSE-TALENTS-ONSHAPE-ALT": "Logo de OnShape",
+      "DIVERSE-TALENTS-MICRO-WELDING-ALT": "Logo de micro-soudure",
+      "DIVERSE-TALENTS-PHYSICAL-STRENGTH-ALT": "Logo de force physique",
+      "DIVERSE-TALENTS-PERFECTIONISM-ALT": "Logo de perfectionnisme"
+    }
+  },
+  "CONTACT-ME":{
+    "HTML": {
+      "TITLE": "Contacter moi!",
+      "TEXT1": "Vous pouvez me contacter pour toute question ou offre d'emploi."
+    },
+    "TS": {
+
+    }
+  },
+  "EXPERIENCE":{
+    "HTML": {
+      "TITLE-DIVERSE-EXPERIENCES": "Expériences diverses",
+      "TEXT-DISCIPLINE": "Discipline: ",
+      "TITLE-PROFESSIONAL-EXPERIENCES": "Expériences professionnelles",
+      "TEXT-REFERENCE": "Référence: ",
+      "TEXT-REFERENCE-JOB": "Poste du référant: "
+    },
+    "TS": {
+      "DIVERSE-EXPERIENCE-ZONE01-ROBOTIC": "Robotique Zone01",
+      "DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-DISCIPLINE": "Olympique mondiale de la robotique",
+      "DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-INFO": "Finaliste du championnat canadien",
+      "DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-ALT": "Logo de Zone01 Robotique",
+      "DIVERSE-EXPERIENCE-CODEJAM": "Codejam12",
+      "DIVERSE-EXPERIENCE-CODEJAM-DISCIPLINE": "Choix libre",
+      "DIVERSE-EXPERIENCE-CODEJAM-INFO": "Participant de la douzième édition de Codejam",
+      "DIVERSE-EXPERIENCE-CODEJAM-ALT": "Logo de Codejam",
+      "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-YEAR": "2016-2020",
+      "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-JOB": "Préposé à l'entretien extérieur",
+      "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE": "Équipement C. Lesage",
+      "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-REFERENCE": "Mme. Michelle Lesage",
+      "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-REFERENCE-JOB": "Patronne",
+      "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-PHONE": "+1 (819) 228-5694",
+      "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-ALT": "Logo de Équipement C. Lesage",
+      "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-YEAR": "2022-2023",
+      "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-JOB": "Entretien et soin des plants",
+      "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE": "Reboisement Mauricie",
+      "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-REFERENCE": "Mme. Véronique Gélinas",
+      "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-REFERENCE-JOB": "Supérieur",
+      "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-PHONE": "+1 (819) 374-3633",
+      "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-ALT": "Logo de Reboisement Mauricie",
+      "PROFESSIONAL-EXPERIENCE-NICOLET-YEAR": "été 2024",
+      "PROFESSIONAL-EXPERIENCE-NICOLET-JOB": "Développeur en IA, stage en informatique",
+      "PROFESSIONAL-EXPERIENCE-NICOLET": "Ville de Nicolet",
+      "PROFESSIONAL-EXPERIENCE-NICOLET-REFERENCE": "Mme. Stéphanie Dufresne",
+      "PROFESSIONAL-EXPERIENCE-NICOLET-REFERENCE-JOB": "Coordonatrice du bureau de la transition écologique et de l'innovation sociale",
+      "PROFESSIONAL-EXPERIENCE-NICOLET-PHONE": "+1 (819) 293-6901, poste 1104",
+      "PROFESSIONAL-EXPERIENCE-NICOLET-ALT": "Logo de la Ville de Nicolet"
+    }
+  },
+  "FORMATION":{
+    "HTML": {
+      "TITLE": "Formations professionnelles"
+    },
+    "TS": {
+      "SCHOOL-COLLEGE-LAFLECHE": "Collège Laflèche",
+      "SCHOOL-COLLEGE-LAFLECHE-PROGRAM": "Science de la nature",
+      "SCHOOL-COLLEGE-LAFLECHE-ALT": "Logo du Collège Laflèche",
+      "SCHOOL-UQTR-BACC": "Université du Québec à Trois-Rivières",
+      "SCHOOL-UQTR-BACC-PROGRAM": "Maîtrise en informatique",
+      "SCHOOL-UQTR-BACC-ALT": "Logo de l'UQTR",
+      "SCHOOL-UQTR-MASTERS": "Université du Québec à Trois-Rivières",
+      "SCHOOL-UQTR-MASTERS-PROGRAM": "Maîtrise en intelligence artificielle",
+      "SCHOOL-UQTR-MASTERS-ALT": "Logo de l'UQTR"
+    }
+  },
+  "NAVBAR":{
+    "HTML": {
+      "HOME": "Accueil",
+      "EXPERIENCE": "Expériences",
+      "SKILLS": "Compétences",
+      "FORMATION": "Formations",
+      "PERSONAL-PROJECTS": "Projets Personnels",
+      "CV": "CV",
+      "RECOMMENDATION-LETTER": "Lettre de recommandation"
+    },
+    "TS": {
+
+    }
+  },
+  "PROJECTS":{
+    "HTML": {
+
+    },
+    "TS": {
+      "PROJECTS-CHESS-GAME": "Jeu d'échecs",
+      "PROJECTS-CHESS-GAME-SHORT-DESCRIPTION": "Défiez vos amis dans un jeu d'échecs.",
+      "PROJECTS-CHESS-GAME-DESCRIPTION": "Conçu dans le cadre universitaire, ce jeu d'échecs permet à deux joueurs de s'affronter sur un plateau de jeu en 2D. Le jeu offre la possibilité de changer les couleurs des dalles comme tout joueur les veulent, de recommencer une partie, de voir les coups possibles pour une pièce sélectionnée et de voir les coups joués.",
+      "PROJECTS-MATRIX": "Résolution de matrices",
+      "PROJECTS-MATRIX-SHORT-DESCRIPTION": "Application console permettant de résoudre des matrices en utilisant diverses méthodes.",
+      "PROJECTS-MATRIX-DESCRIPTION": "Conçu dans le cadre universitaire, cette application console permet de résoudre des matrices selon diverses méthodes, telles que la méthode de Gauss, la méthode de Gauss-Jordan, la méthode de Cramer, la méthode de Jacobi et par la méthode da la matrice inverse.",
+      "PROJECTS-SERIALIZE": "Sérialisation d'objets",
+      "PROJECTS-SERIALIZE-SHORT-DESCRIPTION": "Application console permettant de sérialiser et désérialiser des objets via un fichier JSON.",
+      "PROJECTS-SERIALIZE-DESCRIPTION": "Cette application console permet de sérialiser et désérialiser des objets à partir d'un fichier JSON, à condition que l'objet dispose d'un constructeur approprié, offrant ainsi une solution simple et flexible pour la gestion des données.",
+      "PROJECTS-NICOLET": "Projet révoltionnaire en IA",
+      "PROJECTS-NICOLET-SHORT-DESCRIPTION": "La municipalité de Nicolet m'as mandaté de leur fournir un moyen de prédire toutes aspects socio-environnementaux en lien avec leur ville",
+      "PROJECTS-NICOLET-DESCRIPTION": "Conçu dans le cadre d'un stage, ce projet a pour but de prédire les aspects socio-environnementaux de la ville de Nicolet en utilisant des algorithmes d'apprentissage automatique tel que la régression linéaire et le réseau neuronnale. Les données utilisées proviennent de diverses sources, telles que les données météorologiques, les données de la ville et les données de l'environnement. Les résultats sont générer sous forme de graphiques, soit un graphique doughnut socio-environnemental, un graphique à barres verticales ou horizontales, un graphique en ligne ou un graphique en secteurs."
+    }
+  },
+  "PHONE-DIALOG":{
+    "HTML": {
+
+    },
+    "TS": {
+      "TITLE": "Vous devez être sur mobile!",
+      "TEXT": "Appeler moi au +1 (819) 698-6349"
+    }
+  },
+  "APP":{
+    "HTML": {
+
+    },
+    "TS": {
+
+    }
+  }
 }
