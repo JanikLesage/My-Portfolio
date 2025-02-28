@@ -1,0 +1,203 @@
+{
+  "HOME": {
+    "HTML": {
+      "TITLE": "Welcome to my portfolio!",
+      "TEXT1": "Hi! I am a developer starting a master's degree in computer science at the Université du Québec à Trois-Rivières, specializing in artificial intelligence. Passionate about programming, I am always looking for new challenges.",
+      "TEXT2": "I have experience as an artificial intelligence developer and have worked on several projects, both personal and professional."
+    },
+    "TS": {
+
+    }
+  },
+  "SKILLS": {
+    "HTML": {
+      "TITLE": "Skills",
+      "CARD-TITLE-LANGUAGES-SPOKEN": "Spoken Languages",
+      "CARD-TITLE-PROGRAMMING-LANGUAGES": "Programming Languages",
+      "CARD-TITLE-IDE": "IDEs",
+      "CARD-TITLE-FRAMEWORK": "Frameworks",
+      "CARD-TITLE-GIT-TOOLS": "Git Tools",
+      "CARD-TITLE-GAME-ENGINES": "Game Engines",
+      "CARD-TITLE-OS": "Operating Systems",
+      "CARD-TITLE-DIVERSE-TALENTS": "Diverse Talents"
+    },
+    "TS": {
+      "FRAMEWORKS-ANGULAR-ALT": "Angular logo",
+      "FRAMEWORKS-FLUTTER-ALT": "Flutter logo",
+      "FRAMEWORKS-DJANGO-ALT": "Django logo",
+      "LANGUAGE-SPOKEN-FRENCH": "French",
+      "LANGUAGE-SPOKEN-ENGLISH": "English",
+      "LANGUAGE-SPOKEN-SPANISH": "Spanish",
+      "LANGUAGE-SPOKEN-FRENCH-ALT": "French flag",
+      "LANGUAGE-SPOKEN-ENGLISH-ALT": "United Kingdom flag",
+      "LANGUAGE-SPOKEN-SPANISH-ALT": "Spanish flag",
+      "PROGRAMMING-LANGUAGE-JAVA-ALT": "Java logo",
+      "PROGRAMMING-LANGUAGE-JAVASCRIPT-ALT": "JavaScript logo",
+      "PROGRAMMING-LANGUAGE-TYPESCRIPT-ALT": "TypeScript logo",
+      "PROGRAMMING-LANGUAGE-HTML-ALT": "HTML logo",
+      "PROGRAMMING-LANGUAGE-CSS-ALT": "CSS logo",
+      "PROGRAMMING-LANGUAGE-SQL-ALT": "SQL logo",
+      "PROGRAMMING-LANGUAGE-PYTHON-ALT": "Python logo",
+      "PROGRAMMING-LANGUAGE-C-ALT": "C logo",
+      "PROGRAMMING-LANGUAGE-C#-ALT": "C# logo",
+      "PROGRAMMING-LANGUAGE-PHP-ALT": "PHP logo",
+      "PROGRAMMING-LANGUAGE-DART-ALT": "Dart logo",
+      "PROGRAMMING-LANGUAGE-XML-ALT": "XML logo",
+      "IDE-INTELLIJ-ALT": "IntelliJ IDEA logo",
+      "IDE-VSCODE-ALT": "Visual Studio Code logo",
+      "IDE-ANDROID-STUDIO-ALT": "Android Studio logo",
+      "IDE-PYCHARM-ALT": "PyCharm logo",
+      "IDE-WEBSTORM-ALT": "WebStorm logo",
+      "IDE-RIDER-ALT": "Rider logo",
+      "GAME-ENGINE-UNITY-ALT": "Unity logo",
+      "OS-WINDOWS-ALT": "Windows logo",
+      "OS-LINUX-ALT": "Linux logo",
+      "OS-MAC-ALT": "MacOS logo",
+      "GIT-TOOLS-GIT-ALT": "Git logo",
+      "GIT-TOOLS-GITHUB-ALT": "GitHub logo",
+      "GIT-TOOLS-GITLAB-ALT": "GitLab logo",
+      "GIT-TOOLS-GITKRAKEN-ALT": "GitKraken logo",
+      "DIVERSE-TALENTS-AI": "Artificial Intelligence",
+      "DIVERSE-TALENTS-ARDUINO": "Arduino",
+      "DIVERSE-TALENTS-WORD": "Microsoft Word",
+      "DIVERSE-TALENTS-EXCEL": "Microsoft Excel",
+      "DIVERSE-TALENTS-POWERPOINT": "Microsoft PowerPoint",
+      "DIVERSE-TALENTS-ONSHAPE": "OnShape",
+      "DIVERSE-TALENTS-MICRO-WELDING": "Micro-welding",
+      "DIVERSE-TALENTS-PHYSICAL-STRENGTH": "Physical strength",
+      "DIVERSE-TALENTS-PERFECTIONISM": "Perfectionism",
+      "DIVERSE-TALENTS-AI-ALT": "Artificial Intelligence logo",
+      "DIVERSE-TALENTS-ARDUINO-ALT": "Arduino logo",
+      "DIVERSE-TALENTS-WORD-ALT": "Word logo",
+      "DIVERSE-TALENTS-EXCEL-ALT": "Excel logo",
+      "DIVERSE-TALENTS-POWERPOINT-ALT": "PowerPoint logo",
+      "DIVERSE-TALENTS-ONSHAPE-ALT": "OnShape logo",
+      "DIVERSE-TALENTS-MICRO-WELDING-ALT": "Micro-welding logo",
+      "DIVERSE-TALENTS-PHYSICAL-STRENGTH-ALT": "Physical strength logo",
+      "DIVERSE-TALENTS-PERFECTIONISM-ALT": "Perfectionism logo"
+    }
+  },
+  "CONTACT-ME": {
+    "HTML": {
+      "TITLE": "Contact me!",
+      "TEXT1": "You can contact me for any questions or job offers."
+    },
+    "TS": {
+
+    }
+  },
+  "EXPERIENCE": {
+    "HTML": {
+      "TITLE-DIVERSE-EXPERIENCES": "Diverse Experiences",
+      "TEXT-DISCIPLINE": "Discipline: ",
+      "TITLE-PROFESSIONAL-EXPERIENCES": "Professional Experiences",
+      "TEXT-REFERENCE": "Reference: ",
+      "TEXT-REFERENCE-JOB": "Referee's position: "
+    },
+    "TS": {
+      "DIVERSE-EXPERIENCE-ZONE01-ROBOTIC": "Zone01 Robotics",
+      "DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-DISCIPLINE": "World Robotics Olympiad",
+      "DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-INFO": "Finalist in the Canadian Championship",
+      "DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-ALT": "Zone01 Robotics Logo",
+      "DIVERSE-EXPERIENCE-CODEJAM": "Codejam12",
+      "DIVERSE-EXPERIENCE-CODEJAM-DISCIPLINE": "Open choice",
+      "DIVERSE-EXPERIENCE-CODEJAM-INFO": "Participant in the twelfth edition of Codejam",
+      "DIVERSE-EXPERIENCE-CODEJAM-ALT": "Codejam Logo",
+      "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-YEAR": "2016-2020",
+      "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-JOB": "Outdoor maintenance worker",
+      "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE": "Équipement C. Lesage",
+      "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-REFERENCE": "Mrs. Michelle Lesage",
+      "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-REFERENCE-JOB": "Owner",
+      "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-PHONE": "+1 (819) 228-5694",
+      "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-ALT": "Équipement C. Lesage Logo",
+      "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-YEAR": "2022-2023",
+      "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-JOB": "Plant maintenance and care",
+      "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE": "Reboisement Mauricie",
+      "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-REFERENCE": "Mrs. Véronique Gélinas",
+      "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-REFERENCE-JOB": "Supervisor",
+      "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-PHONE": "+1 (819) 374-3633",
+      "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-ALT": "Reboisement Mauricie Logo",
+      "PROFESSIONAL-EXPERIENCE-NICOLET-YEAR": "Summer 2024",
+      "PROFESSIONAL-EXPERIENCE-NICOLET-JOB": "AI Developer, IT Internship",
+      "PROFESSIONAL-EXPERIENCE-NICOLET": "City of Nicolet",
+      "PROFESSIONAL-EXPERIENCE-NICOLET-REFERENCE": "Mrs. Stéphanie Dufresne",
+      "PROFESSIONAL-EXPERIENCE-NICOLET-REFERENCE-JOB": "Coordinator of the Office of Ecological Transition and Social Innovation",
+      "PROFESSIONAL-EXPERIENCE-NICOLET-PHONE": "+1 (819) 293-6901, ext. 1104",
+      "PROFESSIONAL-EXPERIENCE-NICOLET-ALT": "City of Nicolet Logo"
+    }
+  },
+  "FORMATION": {
+    "HTML": {
+      "TITLE": "Professional Training"
+    },
+    "TS": {
+      "SCHOOL-COLLEGE-LAFLECHE": "Collège Laflèche",
+      "SCHOOL-COLLEGE-LAFLECHE-PROGRAM": "Natural Sciences",
+      "SCHOOL-COLLEGE-LAFLECHE-ALT": "Collège Laflèche Logo",
+      "SCHOOL-UQTR-BACC": "Université du Québec à Trois-Rivières",
+      "SCHOOL-UQTR-BACC-PROGRAM": "Bachelor's in Computer Science",
+      "SCHOOL-UQTR-BACC-ALT": "UQTR Logo",
+      "SCHOOL-UQTR-MASTERS": "Université du Québec à Trois-Rivières",
+      "SCHOOL-UQTR-MASTERS-PROGRAM": "Master’s in Artificial Intelligence",
+      "SCHOOL-UQTR-MASTERS-ALT": "UQTR Logo"
+    }
+  },
+  "NAVBAR": {
+    "HTML": {
+      "HOME": "Home",
+      "EXPERIENCE": "Experiences",
+      "SKILLS": "Skills",
+      "FORMATION": "Education",
+      "PERSONAL-PROJECTS": "Personal Projects",
+      "CV": "Resume",
+      "RECOMMENDATION-LETTER": "Recommendation Letter"
+    },
+    "TS": {
+
+    }
+  },
+  "PROJECTS": {
+    "HTML": {
+
+    },
+    "TS": {
+      "PROJECTS-CHESS-GAME": "Chess Game",
+      "PROJECTS-CHESS-GAME-SHORT-DESCRIPTION": "Challenge your friends in a chess game.",
+      "PROJECTS-CHESS-GAME-DESCRIPTION": "Designed as part of a university project, this chess game allows two players to compete on a 2D board. The game offers the ability to change tile colors as the player wishes, restart a game, view possible moves for a selected piece, and see previously played moves.",
+      "PROJECTS-MATRIX": "Matrix Solver",
+      "PROJECTS-MATRIX-SHORT-DESCRIPTION": "Console application for solving matrices using various methods.",
+      "PROJECTS-MATRIX-DESCRIPTION": "Designed as part of a university project, this console application allows solving matrices using various methods such as the Gauss method, Gauss-Jordan method, Cramer’s method, Jacobi method, and the inverse matrix method.",
+      "PROJECTS-SERIALIZE": "Object Serialization",
+      "PROJECTS-SERIALIZE-SHORT-DESCRIPTION": "Console application for serializing and deserializing objects via a JSON file.",
+      "PROJECTS-SERIALIZE-DESCRIPTION": "This console application allows serializing and deserializing objects from a JSON file, provided the object has an appropriate constructor, offering a simple and flexible solution for data management.",
+      "PROJECTS-NICOLET": "Revolutionary AI Project",
+      "PROJECTS-NICOLET-SHORT-DESCRIPTION": "The city of Nicolet tasked me with providing a way to predict all socio-environmental aspects related to their city.",
+      "PROJECTS-NICOLET-DESCRIPTION": "Designed as part of an internship, this project aims to predict the socio-environmental aspects of the city of Nicolet using machine learning algorithms such as linear regression and neural networks. The data used comes from various sources, including weather data, city data, and environmental data. The results are generated as charts, including a socio-environmental doughnut chart, a vertical or horizontal bar chart, a line chart, or a pie chart."
+    }
+  },
+  "PHONE-DIALOG": {
+    "HTML": {
+
+    },
+    "TS": {
+      "TITLE": "You must be on mobile!",
+      "TEXT": "Call me at +1 (819) 698-6349"
+    }
+  },
+  "PAGE-NOT-FOUND": {
+    "HTML": {
+      "TEXT": "Oops! The page you are looking for does not exist."
+    },
+    "TS": {
+
+    }
+  },
+  "APP": {
+    "HTML": {
+
+    },
+    "TS": {
+
+    }
+  }
+}

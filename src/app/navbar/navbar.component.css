@@ -6,3 +6,13 @@
   font-weight: bold;
   margin-left: 5px;
 }
+
+@media (max-width: 400px) {
+  #title{
+    font-size: 0.9em;
+    margin-left: 2px;
+  }
+  .menu_button{
+    margin-left: -15px;
+  }
+}

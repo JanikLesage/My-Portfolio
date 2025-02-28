@@ -1,12 +1,12 @@
 <div class="content">
-  <h1 class="title">Formations professionnelles</h1>
+  <h1 class="title">{{ 'FORMATION.HTML.TITLE' | translate }}</h1>
   <mat-card class="card_content" *ngFor="let schools of schools">
-    <mat-card-title class="card_title">{{schools.name}}</mat-card-title>
+    <mat-card-title class="card_title">{{ schools.name | translate }}</mat-card-title>
     <div class="flex_content">
       <div class="img_content">
-        <img class="imgs" src="{{schools.img}}" alt="{{schools.alt}}" width="{{schools.width}}">
+        <img class="imgs" src="{{schools.img}}" alt="{{ schools.alt | translate }}" width="{{schools.width}}">
       </div>
-      <h3 class="program">{{schools.programme}}</h3>
+      <h3 class="program">{{ schools.programme | translate }}</h3>
     </div>
     <h4 class="date">{{schools.years}}</h4>
   </mat-card>

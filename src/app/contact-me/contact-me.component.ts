@@ -4,15 +4,16 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialog } from '@angular/material/dialog';
 import { PhoneDialogComponent } from '../phone-dialog/phone-dialog.component';
+import {TranslateService, TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-contact-me',
-  imports: [MatCardModule, MatIconModule, MatButtonModule, PhoneDialogComponent],
+  imports: [TranslatePipe, MatCardModule, MatIconModule, MatButtonModule],
   templateUrl: './contact-me.component.html',
   styleUrl: './contact-me.component.css'
 })
 export class ContactMeComponent {
-  constructor(public dialog: MatDialog) {}
+  constructor(public dialog: MatDialog, private translate: TranslateService) {}
 
   callPhone(): void {
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);

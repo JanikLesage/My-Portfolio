@@ -1,7 +1,7 @@
 <div class="content">
   <mat-card class="card_content" *ngFor="let project of personal_projects">
-    <mat-card-title class="card_title">{{ project.title }}</mat-card-title>
-    <p class="description">{{ project.short_description }}</p>
+    <mat-card-title class="card_title">{{ project.title | translate }}</mat-card-title>
+    <p class="description">{{ project.short_description | translate }}</p>
 
     <div class="flex_languages">
       <div class="languages" *ngFor="let language of project.languages" [ngStyle]="{'background-color': getLanguageColor(language)}">
@@ -18,7 +18,7 @@
 
     <mat-expansion-panel [expanded]="isExpanded(project.title)" hideToggle>
       <mat-expansion-panel-header *ngIf="false"></mat-expansion-panel-header>
-      <p class="description">{{ project.description }}</p>
+      <p class="description">{{ project.description | translate }}</p>
 
       <div class="image-slider">
         <button mat-icon-button (click)="prevImage(project.title, project.images)">

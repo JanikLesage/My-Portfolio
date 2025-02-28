@@ -52,16 +52,30 @@
   object-fit: contain;
 }
 
-/* For screens up to 600px */
-@media (max-width: 600px){
+/* For screens smaller than 300px */
+@media (max-width: 400px) {
+  .card_title {
+    font-size: 20px;
+  }
+
+  .element_name {
+    font-size: 15px;
+  }
+
+  .element {
+    width: calc(100% - 25px);
+  }
+}
+/* For screens from 401px to 600px */
+@media (min-width: 401px) and (max-width: 600px){
   .imgs{
     width: 80px;
   }
   .element_name{
-        font-size: 15px;
+    font-size: 18px;
   }
   .element{
-        width: calc(50% - 40px);
+    width: calc(50% - 40px);
   }
   .element{
     min-height: 200px;

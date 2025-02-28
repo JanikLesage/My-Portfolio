@@ -1,17 +1,24 @@
 <div class="nav-content">
   <mat-toolbar>
-    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Menu">
+    <button mat-icon-button class="menu_button" [matMenuTriggerFor]="menu" aria-label="Menu">
       <mat-icon>menu</mat-icon>
     </button>
     <mat-menu #menu="matMenu">
-      <button mat-menu-item [routerLink]="['/home-screen']" routerLinkActive="active">Accueil</button>
-      <button mat-menu-item [routerLink]="['/experiences']" routerLinkActive="active">Expériences</button>
-      <button mat-menu-item [routerLink]="['/competences']" routerLinkActive="active">Compétences</button>
-      <button mat-menu-item [routerLink]="['/formations']" routerLinkActive="active">Formations</button>
-      <button mat-menu-item [routerLink]="['/personal-projects']" routerLinkActive="active">Projets Personnels</button>
+      <button mat-menu-item [routerLink]="['/home-screen']" routerLinkActive="active">{{ 'NAVBAR.HTML.HOME' | translate }}</button>
+      <button mat-menu-item [routerLink]="['/experiences']" routerLinkActive="active">{{ 'NAVBAR.HTML.EXPERIENCE' | translate }}</button>
+      <button mat-menu-item [routerLink]="['/competences']" routerLinkActive="active">{{ 'NAVBAR.HTML.SKILLS' | translate }}</button>
+      <button mat-menu-item [routerLink]="['/formations']" routerLinkActive="active">{{ 'NAVBAR.HTML.FORMATION' | translate }}</button>
+      <button mat-menu-item [routerLink]="['/personal-projects']" routerLinkActive="active">{{ 'NAVBAR.HTML.PERSONAL-PROJECTS' | translate }}</button>
     </mat-menu>
     <span id="title">Portfolio</span>
     <span class="spacer"></span>
+    <button mat-icon-button class="language_button" [matMenuTriggerFor]="language" aria-label="Language">
+      <mat-icon>language</mat-icon>
+    </button>
+    <mat-menu #language="matMenu">
+      <button mat-menu-item (click)="switchLang('fr')">Français</button>
+      <button mat-menu-item (click)="switchLang('en')">English</button>
+    </mat-menu>
     <button mat-icon-button class="contact_button" [routerLink]="['/contact-me']" routerLinkActive="active" aria-label="Contacter">
       <mat-icon>contact_phone</mat-icon>
     </button>
@@ -19,8 +26,8 @@
       <mat-icon>description</mat-icon>
     </button>
     <mat-menu #documents="matMenu">
-      <button mat-menu-item>CV</button>
-      <button mat-menu-item>Lettre de recommandation</button>
+      <button mat-menu-item (click)="openURL('./assets/documents/CV.pdf')">{{ 'NAVBAR.HTML.CV' | translate }}</button>
+      <button mat-menu-item (click)="openURL('./assets/documents/Lettre-de-Presentation.pdf')">{{ 'NAVBAR.HTML.RECOMMENDATION-LETTER' | translate }}</button>
     </mat-menu>
   </mat-toolbar>
 </div>

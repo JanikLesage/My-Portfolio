@@ -1,74 +1,74 @@
 <div class="content">
-  <h1 class="title">Compétences</h1>
+  <h1 class="title">{{ 'SKILLS.HTML.TITLE' | translate }}</h1>
   <mat-card class="card_content">
-    <mat-card-title class="card_title">Langues parlées</mat-card-title>
+    <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-LANGUAGES-SPOKEN' | translate }}</mat-card-title>
     <div class="flex_content">
       <div class="element" *ngFor="let languagesSpoken of languagesSpoken">
-        <img class="imgs" src="{{languagesSpoken.img}}" alt="{{languagesSpoken.alt}}" width="{{languagesSpoken.width}}">
-        <h3 class="element_name">{{languagesSpoken.name}}</h3>
+        <img class="imgs" src="{{languagesSpoken.img}}" alt="{{ languagesSpoken.alt | translate }}" width="{{languagesSpoken.width}}">
+        <h3 class="element_name">{{languagesSpoken.name | translate }}</h3>
       </div>
     </div>
   </mat-card>
   <mat-card class="card_content">
-    <mat-card-title class="card_title">Languages connus</mat-card-title>
+    <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-PROGRAMMING-LANGUAGES' | translate }}</mat-card-title>
     <div class="flex_content">
       <div class="element" *ngFor="let languagesProgramming of languagesProgramming">
-        <img class="imgs" src="{{languagesProgramming.img}}" alt="{{languagesProgramming.alt}}" width="{{languagesProgramming.width}}">
+        <img class="imgs" src="{{languagesProgramming.img}}" alt="{{languagesProgramming.alt | translate }}" width="{{languagesProgramming.width}}">
         <h3 class="element_name">{{languagesProgramming.name}}</h3>
       </div>
     </div>
   </mat-card>
   <mat-card class="card_content">
-    <mat-card-title class="card_title">IDE que j'utilise</mat-card-title>
+    <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-IDE' | translate }}</mat-card-title>
     <div class="flex_content">
       <div class="element" *ngFor="let ide of ide">
-        <img class="imgs" src="{{ide.img}}" alt="{{ide.alt}}" width="{{ide.width}}">
+        <img class="imgs" src="{{ide.img}}" alt="{{ide.alt | translate}}" width="{{ide.width}}">
         <h3 class="element_name">{{ide.name}}</h3>
       </div>
     </div>
   </mat-card>
   <mat-card class="card_content">
-    <mat-card-title class="card_title">Frameworks connus</mat-card-title>
+    <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-FRAMEWORK' | translate }}</mat-card-title>
     <div class="flex_content">
       <div class="element" *ngFor="let frameworks of frameworks">
-        <img class="imgs" src="{{frameworks.img}}" alt="{{frameworks.alt}}" width="{{frameworks.width}}">
+        <img class="imgs" src="{{frameworks.img}}" alt="{{frameworks.alt | translate}}" width="{{frameworks.width}}">
         <h3 class="element_name">{{frameworks.name}}</h3>
       </div>
     </div>
   </mat-card>
   <mat-card class="card_content">
-    <mat-card-title class="card_title">Outils git connus</mat-card-title>
+    <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-GIT-TOOLS' | translate }}</mat-card-title>
     <div class="flex_content">
       <div class="element" *ngFor="let gitTools of gitTools">
-        <img class="imgs" src="{{gitTools.img}}" alt="{{gitTools.alt}}" width="{{gitTools.width}}">
+        <img class="imgs" src="{{gitTools.img}}" alt="{{gitTools.alt | translate}}" width="{{gitTools.width}}">
         <h3 class="element_name">{{gitTools.name}}</h3>
       </div>
     </div>
   </mat-card>
   <mat-card class="card_content">
-    <mat-card-title class="card_title">Game engines connus</mat-card-title>
+    <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-GAME-ENGINES' | translate }}</mat-card-title>
     <div class="flex_content">
       <div class="element" *ngFor="let gameEngines of gameEngines">
-        <img class="imgs" src="{{gameEngines.img}}" alt="{{gameEngines.alt}}" width="{{gameEngines.width}}">
+        <img class="imgs" src="{{gameEngines.img}}" alt="{{gameEngines.alt | translate}}" width="{{gameEngines.width}}">
         <h3 class="element_name">{{gameEngines.name}}</h3>
       </div>
     </div>
   </mat-card>
   <mat-card class="card_content">
-    <mat-card-title class="card_title">Systèmes d'exploitation connus</mat-card-title>
+    <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-OS' | translate }}</mat-card-title>
     <div class="flex_content">
       <div class="element" *ngFor="let operatingSystems of operatingSystems">
-        <img class="imgs" src="{{operatingSystems.img}}" alt="{{operatingSystems.alt}}" width="{{operatingSystems.width}}">
+        <img class="imgs" src="{{operatingSystems.img}}" alt="{{operatingSystems.alt | translate}}" width="{{operatingSystems.width}}">
         <h3 class="element_name">{{operatingSystems.name}}</h3>
       </div>
     </div>
   </mat-card>
   <mat-card class="card_content">
-    <mat-card-title class="card_title">Talents divers</mat-card-title>
+    <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-DIVERSE-TALENTS' | translate }}</mat-card-title>
     <div class="flex_content">
       <div class="element" *ngFor="let diverseTalent of diverseTalent">
-        <img class="imgs" src="{{diverseTalent.img}}" alt="{{diverseTalent.alt}}" width="{{diverseTalent.width}}">
-        <h3 class="element_name">{{diverseTalent.name}}</h3>
+        <img class="imgs" src="{{diverseTalent.img}}" alt="{{diverseTalent.alt | translate}}" width="{{diverseTalent.width}}">
+        <h3 class="element_name">{{diverseTalent.name | translate}}</h3>
       </div>
     </div>
   </mat-card>

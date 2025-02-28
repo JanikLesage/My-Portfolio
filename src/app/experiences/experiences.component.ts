@@ -1,31 +1,35 @@
 import { Component } from '@angular/core';
 import {MatCardModule} from '@angular/material/card';
 import { CommonModule } from '@angular/common';
+import {TranslateService, TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-experiences',
-  imports: [MatCardModule, CommonModule],
+  imports: [TranslatePipe, MatCardModule, CommonModule],
   templateUrl: './experiences.component.html',
   styleUrl: './experiences.component.css'
 })
 export class ExperiencesComponent {
+  constructor(private translate: TranslateService) {}
+
   experiences_diverses = [
-    { img: 'assets/images/roboticZone01_icon.png', years: '2019-2020', name: 'Robotique Zone01',
-      discipline: 'World Robot Olympiad', info: 'Finaliste du championnat canadien', alt: 'Robotique Zone01 logo', width: 100 },
-    { img: 'assets/images/codejam_icon.png', years: '2022', name: 'Codejam12',
-      discipline: 'Choix libre', info: 'Participant de la douzième édition de Codejam', alt: 'Codejam12 logo', width: 100 },
+    { img: 'assets/images/roboticZone01_icon.png', years: '2019-2020', name: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-ZONE01-ROBOTIC',
+      discipline: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-DISCIPLINE', info: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-INFO',
+      alt: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-ALT', width: 100 },
+    { img: 'assets/images/codejam_icon.png', years: '2022', name: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-CODEJAM',
+      discipline: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-CODEJAM-DISCIPLINE', info: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-CODEJAM-INFO',
+      alt: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-CODEJAM-ALT', width: 100 },
   ]
 
   experiences_professionnelles = [
-    { img: 'assets/images/equipementCLesage_icon.png', years: '2016-2020', job: 'Préposé à l\'entretien extérieur',
-      name: 'Équipement C. Lesage', reference_name: 'Mme. Michelle Lesage', reference_phone: '+1 (819) 228-5694',
-      reference_job: 'Patronne', alt: 'Équipement C. Lesage logo', width: 100 },
-    { img: 'assets/images/reboisementMauricie_icon.png', years: '2022-2023', job: 'Entretien et soin des plants',
-      name: 'Reboisement Mauricie', reference_name: 'Mme. Véronique Gélinas', reference_phone: '+1 (819) 374-3633',
-      reference_job: 'Supérieur', alt: 'Reboisement Mauricie logo', width: 100 },
-    { img: 'assets/images/nicolet_icon.png', years: 'été 2024', job: 'Développeur en IA, stage en informatique',
-      name: 'Ville de Nicolet', reference_name: 'Mme. Stéphanie Dufresne',
-      reference_job: 'Coordonatrice du bureau de la transition écologique et de l\'innovation sociale',
-      reference_phone: '+1 (819) 293-6901, poste 1104', alt: 'Ville de Nicolet logo', width: 100 },
+    { img: 'assets/images/equipementCLesage_icon.png', years: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-YEAR', job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-JOB',
+      name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-FERME-CLESAGE', reference_name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-REFERENCE', reference_phone: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-PHONE',
+      reference_job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-REFERENCE-JOB', alt: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-ALT', width: 100 },
+    { img: 'assets/images/reboisementMauricie_icon.png', years: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-YEAR', job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-JOB',
+      name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE', reference_name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-REFERENCE', reference_phone: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-PHONE',
+      reference_job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-REFERENCE-JOB', alt: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-ALT', width: 100 },
+    { img: 'assets/images/nicolet_icon.png', years: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-NICOLET-YEAR', job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-NICOLET-JOB',
+      name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-NICOLET', reference_name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-NICOLET-REFERENCE',
+      reference_job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-NICOLET-REFERENCE-JOB', reference_phone: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-NICOLET-PHONE', alt: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-NICOLET-ALT', width: 100 },
   ]
 }

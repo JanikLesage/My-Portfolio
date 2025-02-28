@@ -5,6 +5,7 @@ import { FormationsComponent } from './formations/formations.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { HomeScreenComponent } from './home-screen/home-screen.component';
 import { PersonalProjectsComponent } from './personal-projects/personal-projects.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home-screen', pathMatch: 'full' },
@@ -14,4 +15,5 @@ export const routes: Routes = [
   { path: 'formations', component: FormationsComponent },
   { path: 'contact-me', component: ContactMeComponent },
   { path: 'personal-projects', component: PersonalProjectsComponent },
+  { path: '**', component: PageNotFoundComponent }
 ];
