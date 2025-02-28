@@ -184,6 +184,14 @@
       "TEXT": "Call me at +1 (819) 698-6349"
     }
   },
+  "PAGE-NOT-FOUND": {
+    "HTML": {
+      "TEXT": "Oops! The page you are looking for does not exist."
+    },
+    "TS": {
+
+    }
+  },
   "APP": {
     "HTML": {
 

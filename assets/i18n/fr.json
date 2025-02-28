@@ -79,7 +79,7 @@
   },
   "CONTACT-ME":{
     "HTML": {
-      "TITLE": "Contacter moi!",
+      "TITLE": "Contactez-moi!",
       "TEXT1": "Vous pouvez me contacter pour toute question ou offre d'emploi."
     },
     "TS": {
@@ -182,6 +182,14 @@
     "TS": {
       "TITLE": "Vous devez être sur mobile!",
       "TEXT": "Appeler moi au +1 (819) 698-6349"
+    }
+  },
+  "PAGE-NOT-FOUND": {
+    "HTML": {
+      "TEXT": "Oups ! La page que vous recherchez n'existe pas."
+    },
+    "TS": {
+
     }
   },
   "APP":{
