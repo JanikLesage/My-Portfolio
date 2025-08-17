@@ -123,7 +123,14 @@
       "PROFESSIONAL-EXPERIENCE-NICOLET-REFERENCE": "Mme. Stéphanie Dufresne",
       "PROFESSIONAL-EXPERIENCE-NICOLET-REFERENCE-JOB": "Coordonatrice du bureau de la transition écologique et de l'innovation sociale",
       "PROFESSIONAL-EXPERIENCE-NICOLET-PHONE": "+1 (819) 293-6901, poste 1104",
-      "PROFESSIONAL-EXPERIENCE-NICOLET-ALT": "Logo de la Ville de Nicolet"
+      "PROFESSIONAL-EXPERIENCE-NICOLET-ALT": "Logo de la Ville de Nicolet",
+      "PROFESSIONAL-EXPERIENCE-BEAUDOIN-YEAR": "été 2025",
+      "PROFESSIONAL-EXPERIENCE-BEAUDOIN-JOB": "Développeur en IA, stage en informatique",
+      "PROFESSIONAL-EXPERIENCE-BEAUDOIN": "Beaudoin Relation Publique",
+      "PROFESSIONAL-EXPERIENCE-BEAUDOIN-REFERENCE": "M. Steve Renaud",
+      "PROFESSIONAL-EXPERIENCE-BEAUDOIN-REFERENCE-JOB": "Président",
+      "PROFESSIONAL-EXPERIENCE-BEAUDOIN-PHONE": "+1 (819) 840-2829, poste 302",
+      "PROFESSIONAL-EXPERIENCE-BEAUDOIN-ALT": "Logo de Beaudoin Relation Publique"
     }
   },
   "FORMATION":{
@@ -172,7 +179,10 @@
       "PROJECTS-SERIALIZE-DESCRIPTION": "Cette application console permet de sérialiser et désérialiser des objets à partir d'un fichier JSON, à condition que l'objet dispose d'un constructeur approprié, offrant ainsi une solution simple et flexible pour la gestion des données.",
       "PROJECTS-NICOLET": "Projet révoltionnaire en IA",
       "PROJECTS-NICOLET-SHORT-DESCRIPTION": "La municipalité de Nicolet m'as mandaté de leur fournir un moyen de prédire toutes aspects socio-environnementaux en lien avec leur ville",
-      "PROJECTS-NICOLET-DESCRIPTION": "Conçu dans le cadre d'un stage, ce projet a pour but de prédire les aspects socio-environnementaux de la ville de Nicolet en utilisant des algorithmes d'apprentissage automatique tel que la régression linéaire et le réseau neuronnale. Les données utilisées proviennent de diverses sources, telles que les données météorologiques, les données de la ville et les données de l'environnement. Les résultats sont générer sous forme de graphiques, soit un graphique doughnut socio-environnemental, un graphique à barres verticales ou horizontales, un graphique en ligne ou un graphique en secteurs."
+      "PROJECTS-NICOLET-DESCRIPTION": "Conçu dans le cadre d'un stage, ce projet a pour but de prédire les aspects socio-environnementaux de la ville de Nicolet en utilisant des algorithmes d'apprentissage automatique tel que la régression linéaire et le réseau neuronnale. Les données utilisées proviennent de diverses sources, telles que les données météorologiques, les données de la ville et les données de l'environnement. Les résultats sont générer sous forme de graphiques, soit un graphique doughnut socio-environnemental, un graphique à barres verticales ou horizontales, un graphique en ligne ou un graphique en secteurs.",
+      "PROJECTS-BEAUDOIN": "Création d’un agent conversationnel",
+      "PROJECTS-BEAUDOIN-SHORT-DESCRIPTION": "Création d’un agent conversationnel spécialisé dans la rédaction de communiqués de presse.",
+      "PROJECTS-BEAUDOIN-DESCRIPTION": "Lors de mon stage chez Beaudoin Relations Publiques, j’ai créé un agent de rédaction de communiqués de presse utilisant à la fois le \"Retrieval Augmented Generation (RAG)\" et l’\"Automatic Prompt Engineer (APE)\" comme méthodes de prompting. L’application parcourait l’ordinateur à la recherche d’un répertoire spécifique. Une fois celui-ci trouvé, elle y identifiait les fichiers dont le nom contenait un ou plusieurs mots-clés, puis en conservait une référence afin de les utiliser lors de son entraînement."
     }
   },
   "PHONE-DIALOG":{

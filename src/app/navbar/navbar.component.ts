@@ -15,8 +15,11 @@ import {TranslateService, TranslatePipe } from '@ngx-translate/core';
 })
 export class NavbarComponent {
   constructor(private translate: TranslateService) {
-    translate.addLangs(['en', 'fr']);
-    translate.setDefaultLang('fr');
+    const supportedLanguages = ['en', 'fr'];
+    const browserLang = this.translate.getBrowserLang();
+
+    const langToUse = browserLang && supportedLanguages.includes(browserLang) ? browserLang : 'en';
+    this.translate.use(langToUse);
   }
 
   switchLang(lang: string){

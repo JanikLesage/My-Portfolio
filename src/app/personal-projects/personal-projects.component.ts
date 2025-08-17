@@ -62,10 +62,12 @@ export class PersonalProjectsComponent {
     description: 'PROJECTS.TS.PROJECTS-CHESS-GAME-DESCRIPTION'},
     { title: 'PROJECTS.TS.PROJECTS-MATRIX', short_description: 'PROJECTS.TS.PROJECTS-MATRIX-SHORT-DESCRIPTION', languages: ['C#'], images: ['assets/images/matrice_proj.png', 'assets/images/matrice1_proj.png'],
     description: 'PROJECTS.TS.PROJECTS-MATRIX-DESCRIPTION'},
-    { title: 'Sérialisation d\'objets', short_description: 'Application console permettant de sérialiser et désérialiser des objets via un fichier JSON.', languages: ['Java'], images: ['assets/images/serializeJson_proj.png', 'assets/images/deserializeJson_proj.png'],
-    description: 'Cette application console permet de sérialiser et désérialiser des objets à partir d\'un fichier JSON, à condition que l\'objet dispose d\'un constructeur approprié, offrant ainsi une solution simple et flexible pour la gestion des données.'},
+    { title: 'PROJECTS.TS.PROJECTS-SERIALIZE', short_description: 'PROJECTS.TS.PROJECTS-SERIALIZE-SHORT-DESCRIPTION', languages: ['Java'], images: ['assets/images/serializeJson_proj.png', 'assets/images/deserializeJson_proj.png'],
+    description: 'PROJECTS.TS.PROJECTS-SERIALIZE-DESCRIPTION'},
     { title: 'PROJECTS.TS.PROJECTS-NICOLET', short_description: 'PROJECTS.TS.PROJECTS-NICOLET-SHORT-DESCRIPTION', languages: ['Python'], images: ['assets/images/nicolet_proj.png', 'assets/images/nicolet1_proj.png', 'assets/images/nicolet2_proj.png'],
     description: 'PROJECTS.TS.PROJECTS-NICOLET-DESCRIPTION'},
+    { title: 'PROJECTS.TS.PROJECTS-BEAUDOIN', short_description: 'PROJECTS.TS.PROJECTS-BEAUDOIN-SHORT-DESCRIPTION', languages: ['Python'], images: ['assets/images/Agent-Beaudoin-UI.png', 'assets/images/Agent-Beaudoin-Input.png', 'assets/images/Agent-Beaudoin-Output.png'],
+    description: 'PROJECTS.TS.PROJECTS-BEAUDOIN-DESCRIPTION'},
   ]
 
   getLanguageColor(name: string): string {
