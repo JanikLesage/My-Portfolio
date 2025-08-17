@@ -123,7 +123,14 @@
       "PROFESSIONAL-EXPERIENCE-NICOLET-REFERENCE": "Mrs. Stéphanie Dufresne",
       "PROFESSIONAL-EXPERIENCE-NICOLET-REFERENCE-JOB": "Coordinator of the Office of Ecological Transition and Social Innovation",
       "PROFESSIONAL-EXPERIENCE-NICOLET-PHONE": "+1 (819) 293-6901, ext. 1104",
-      "PROFESSIONAL-EXPERIENCE-NICOLET-ALT": "City of Nicolet Logo"
+      "PROFESSIONAL-EXPERIENCE-NICOLET-ALT": "City of Nicolet Logo",
+      "PROFESSIONAL-EXPERIENCE-BEAUDOIN-YEAR": "Summer 2025",
+      "PROFESSIONAL-EXPERIENCE-BEAUDOIN-JOB": "AI Developer, IT Internship",
+      "PROFESSIONAL-EXPERIENCE-BEAUDOIN": "Beaudoin Relation Publique",
+      "PROFESSIONAL-EXPERIENCE-BEAUDOIN-REFERENCE": "Mr. Steve Renaud",
+      "PROFESSIONAL-EXPERIENCE-BEAUDOIN-REFERENCE-JOB": "President",
+      "PROFESSIONAL-EXPERIENCE-BEAUDOIN-PHONE": "+1 (819) 840-2829, ext. 302",
+      "PROFESSIONAL-EXPERIENCE-BEAUDOIN-ALT": "Beaudoin Relation Publique Logo"
     }
   },
   "FORMATION": {
@@ -172,7 +179,10 @@
       "PROJECTS-SERIALIZE-DESCRIPTION": "This console application allows serializing and deserializing objects from a JSON file, provided the object has an appropriate constructor, offering a simple and flexible solution for data management.",
       "PROJECTS-NICOLET": "Revolutionary AI Project",
       "PROJECTS-NICOLET-SHORT-DESCRIPTION": "The city of Nicolet tasked me with providing a way to predict all socio-environmental aspects related to their city.",
-      "PROJECTS-NICOLET-DESCRIPTION": "Designed as part of an internship, this project aims to predict the socio-environmental aspects of the city of Nicolet using machine learning algorithms such as linear regression and neural networks. The data used comes from various sources, including weather data, city data, and environmental data. The results are generated as charts, including a socio-environmental doughnut chart, a vertical or horizontal bar chart, a line chart, or a pie chart."
+      "PROJECTS-NICOLET-DESCRIPTION": "Designed as part of an internship, this project aims to predict the socio-environmental aspects of the city of Nicolet using machine learning algorithms such as linear regression and neural networks. The data used comes from various sources, including weather data, city data, and environmental data. The results are generated as charts, including a socio-environmental doughnut chart, a vertical or horizontal bar chart, a line chart, or a pie chart.",
+      "PROJECTS-BEAUDOIN": "Creation of a conversational agent",
+      "PROJECTS-BEAUDOIN-SHORT-DESCRIPTION": "Creation of a conversational agent specialized in writing press releases.",
+      "PROJECTS-BEAUDOIN-DESCRIPTION": "During my internship at Beaudoin Public Relations, I created a press release drafting agent that used both the Retrieval Augmented Generation (RAG) and the Automatic Prompt Engineer (APE) as prompting methods. The application scanned the computer for a specific directory. Once found, it identified the files whose names contained one or more keywords, then kept a reference to them in order to use them during its training."
     }
   },
   "PHONE-DIALOG": {
