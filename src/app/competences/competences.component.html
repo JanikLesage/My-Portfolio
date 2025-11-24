@@ -64,6 +64,51 @@
     </div>
   </mat-card>
   <mat-card class="card_content">
+    <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-BUILDING-TOOLS' | translate }}</mat-card-title>
+    <div class="flex_content">
+      <div class="element" *ngFor="let buildingTools of buildingTools">
+        <img class="imgs" src="{{buildingTools.img}}" alt="{{buildingTools.alt | translate}}" width="{{buildingTools.width}}">
+        <h3 class="element_name">{{buildingTools.name}}</h3>
+      </div>
+    </div>
+  </mat-card>
+  <mat-card class="card_content">
+    <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-DB-MANAGEMENT-SYSTEM' | translate }}</mat-card-title>
+    <div class="flex_content">
+      <div class="element" *ngFor="let dbManagementSystems of dbManagementSystems">
+        <img class="imgs" src="{{dbManagementSystems.img}}" alt="{{dbManagementSystems.alt | translate}}" width="{{dbManagementSystems.width}}">
+        <h3 class="element_name">{{dbManagementSystems.name}}</h3>
+      </div>
+    </div>
+  </mat-card>
+  <mat-card class="card_content">
+    <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-SERVICE-PROVIDERS' | translate }}</mat-card-title>
+    <div class="flex_content">
+      <div class="element" *ngFor="let serviceProviders of serviceProviders">
+        <img class="imgs" src="{{serviceProviders.img}}" alt="{{serviceProviders.alt | translate}}" width="{{serviceProviders.width}}">
+        <h3 class="element_name">{{serviceProviders.name}}</h3>
+      </div>
+    </div>
+  </mat-card>
+  <mat-card class="card_content">
+    <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-CLOUD-COMPUTING-PLATFORMS' | translate }}</mat-card-title>
+    <div class="flex_content">
+      <div class="element" *ngFor="let cloudComputingPlatforms of cloudComputingPlatforms">
+        <img class="imgs" src="{{cloudComputingPlatforms.img}}" alt="{{cloudComputingPlatforms.alt | translate}}" width="{{cloudComputingPlatforms.width}}">
+        <h3 class="element_name">{{cloudComputingPlatforms.name}}</h3>
+      </div>
+    </div>
+  </mat-card>
+  <mat-card class="card_content">
+    <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-DIVERSE-TALENTS-JOB-RELATED' | translate }}</mat-card-title>
+    <div class="flex_content">
+      <div class="element" *ngFor="let diverseTalentJobRelated of diverseTalentJobRelated">
+        <img class="imgs" src="{{diverseTalentJobRelated.img}}" alt="{{diverseTalentJobRelated.alt | translate}}" width="{{diverseTalentJobRelated.width}}">
+        <h3 class="element_name">{{diverseTalentJobRelated.name | translate}}</h3>
+      </div>
+    </div>
+  </mat-card>
+  <mat-card class="card_content">
     <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-DIVERSE-TALENTS' | translate }}</mat-card-title>
     <div class="flex_content">
       <div class="element" *ngFor="let diverseTalent of diverseTalent">

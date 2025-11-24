@@ -27,6 +27,12 @@ export class NavbarComponent {
   }
 
   openURL(url: string){
-    window.open(url, "_blank");
+  if (this.translate.currentLang === 'en') {
+    window.open(url + "-EN.pdf", "_blank");
+  }
+  else if( this.translate.currentLang === 'fr') {
+    window.open(url + "-FR.pdf", "_blank");
+  } else{
+    window.open(url + ".pdf", "_blank");}
   }
 }
