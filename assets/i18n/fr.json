@@ -168,7 +168,7 @@
       "SCHOOL-UQTR-BACC-PROGRAM": "Baccalauréat en informatique",
       "SCHOOL-UQTR-BACC-ALT": "Logo de l'UQTR",
       "SCHOOL-UQTR-MASTERS": "Université du Québec à Trois-Rivières",
-      "SCHOOL-UQTR-MASTERS-PROGRAM": "Maîtrise en intelligence artificielle",
+      "SCHOOL-UQTR-MASTERS-PROGRAM": "Maîtrise en mathématiques et en informatique, spécialisation en intelligence artificielle",
       "SCHOOL-UQTR-MASTERS-ALT": "Logo de l'UQTR"
     }
   },
@@ -180,7 +180,8 @@
       "FORMATION": "Formations",
       "PERSONAL-PROJECTS": "Projets Personnels",
       "CV": "CV",
-      "RECOMMENDATION-LETTER": "Lettre de recommandation"
+      "RECOMMENDATION-LETTER": "Lettre de recommandation",
+      "ACADEMIC-TRANSCRIPT": "Relevé de notes"
     },
     "TS": {
 
@@ -188,7 +189,7 @@
   },
   "PROJECTS":{
     "HTML": {
-
+      "MORE-DETAILS-BUTTON": "Plus de détails"
     },
     "TS": {
       "PROJECTS-CHESS-GAME": "Jeu d'échecs",
@@ -205,7 +206,10 @@
       "PROJECTS-NICOLET-DESCRIPTION": "Conçu dans le cadre d'un stage, ce projet a pour but de prédire les aspects socio-environnementaux de la ville de Nicolet en utilisant des algorithmes d'apprentissage automatique tel que la régression linéaire et le réseau neuronnale. Les données utilisées proviennent de diverses sources, telles que les données météorologiques, les données de la ville et les données de l'environnement. Les résultats sont générer sous forme de graphiques, soit un graphique doughnut socio-environnemental, un graphique à barres verticales ou horizontales, un graphique en ligne ou un graphique en secteurs.",
       "PROJECTS-BEAUDOIN": "Création d’un agent conversationnel",
       "PROJECTS-BEAUDOIN-SHORT-DESCRIPTION": "Création d’un agent conversationnel spécialisé dans la rédaction de communiqués de presse.",
-      "PROJECTS-BEAUDOIN-DESCRIPTION": "Lors de mon stage chez Beaudoin Relations Publiques, j’ai créé un agent de rédaction de communiqués de presse utilisant à la fois le \"Retrieval Augmented Generation (RAG)\" et l’\"Automatic Prompt Engineer (APE)\" comme méthodes de prompting. L’application parcourait l’ordinateur à la recherche d’un répertoire spécifique. Une fois celui-ci trouvé, elle y identifiait les fichiers dont le nom contenait un ou plusieurs mots-clés, puis en conservait une référence afin de les utiliser lors de son entraînement."
+      "PROJECTS-BEAUDOIN-DESCRIPTION": "Lors de mon stage chez Beaudoin Relations Publiques, j’ai créé un agent de rédaction de communiqués de presse utilisant à la fois le \"Retrieval Augmented Generation (RAG)\" et l’\"Automatic Prompt Engineer (APE)\" comme méthodes de prompting. L’application parcourait l’ordinateur à la recherche d’un répertoire spécifique. Une fois celui-ci trouvé, elle y identifiait les fichiers dont le nom contenait un ou plusieurs mots-clés, puis en conservait une référence afin de les utiliser lors de son entraînement.",
+      "PROJECTS-MASTERS": "Sujet de maîtrise",
+      "PROJECTS-MASTERS-SHORT-DESCRIPTION": "Conception d’un agent basé sur des LLM intégrant des principes éthiques, environnementaux et de souveraineté numérique.",
+      "PROJECTS-MASTERS-DESCRIPTION": "Développement d’un agent générique et modulable permettant d’instancier différents agents spécialisés à partir de principes fondamentaux tels que l’éthique, la souveraineté numérique et les enjeux environnementaux. Cet agent pourra, par exemple, proposer des stratégies visant à réduire les émissions de gaz à effet de serre (GES) d’un pays, explorer le Web afin d’identifier des sources de financement pertinentes, ou encore effectuer une veille technologique pour repérer de nouvelles innovations. L’ensemble des décisions et recommandations sera guidé par des valeurs locales, culturelles et éthiques."
     }
   },
   "PHONE-DIALOG":{
