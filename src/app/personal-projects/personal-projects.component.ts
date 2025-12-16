@@ -58,16 +58,23 @@ export class PersonalProjectsComponent {
   ]
 
   personal_projects = [
-    { title: 'PROJECTS.TS.PROJECTS-CHESS-GAME', short_description: 'PROJECTS.TS.PROJECTS-CHESS-GAME-SHORT-DESCRIPTION', languages: ['Java', 'JavaFx'], images: ['assets/images/echec_proj.png', 'assets/images/echec1_proj.png', 'assets/images/echec2_proj.png'],
-    description: 'PROJECTS.TS.PROJECTS-CHESS-GAME-DESCRIPTION'},
-    { title: 'PROJECTS.TS.PROJECTS-MATRIX', short_description: 'PROJECTS.TS.PROJECTS-MATRIX-SHORT-DESCRIPTION', languages: ['C#'], images: ['assets/images/matrice_proj.png', 'assets/images/matrice1_proj.png'],
-    description: 'PROJECTS.TS.PROJECTS-MATRIX-DESCRIPTION'},
-    { title: 'PROJECTS.TS.PROJECTS-SERIALIZE', short_description: 'PROJECTS.TS.PROJECTS-SERIALIZE-SHORT-DESCRIPTION', languages: ['Java'], images: ['assets/images/serializeJson_proj.png', 'assets/images/deserializeJson_proj.png'],
-    description: 'PROJECTS.TS.PROJECTS-SERIALIZE-DESCRIPTION'},
-    { title: 'PROJECTS.TS.PROJECTS-NICOLET', short_description: 'PROJECTS.TS.PROJECTS-NICOLET-SHORT-DESCRIPTION', languages: ['Python'], images: ['assets/images/nicolet_proj.png', 'assets/images/nicolet1_proj.png', 'assets/images/nicolet2_proj.png'],
-    description: 'PROJECTS.TS.PROJECTS-NICOLET-DESCRIPTION'},
-    { title: 'PROJECTS.TS.PROJECTS-BEAUDOIN', short_description: 'PROJECTS.TS.PROJECTS-BEAUDOIN-SHORT-DESCRIPTION', languages: ['Python'], images: ['assets/images/Agent-Beaudoin-UI.png', 'assets/images/Agent-Beaudoin-Input.png', 'assets/images/Agent-Beaudoin-Output.png'],
-    description: 'PROJECTS.TS.PROJECTS-BEAUDOIN-DESCRIPTION'},
+    { title: 'PROJECTS.TS.PROJECTS-CHESS-GAME', short_description: 'PROJECTS.TS.PROJECTS-CHESS-GAME-SHORT-DESCRIPTION', description: "PROJECTS.TS.PROJECTS-CHESS-GAME-DESCRIPTION", languages: ['Java', 'JavaFx'], 
+      images: ['assets/images/echec_proj.png', 'assets/images/echec1_proj.png', 'assets/images/echec2_proj.png']},
+
+    { title: 'PROJECTS.TS.PROJECTS-MATRIX', short_description: 'PROJECTS.TS.PROJECTS-MATRIX-SHORT-DESCRIPTION', description: "PROJECTS.TS.PROJECTS-MATRIX-DESCRIPTION", languages: ['C#'], 
+      images: ['assets/images/matrice_proj.png', 'assets/images/matrice1_proj.png']},
+
+    { title: 'PROJECTS.TS.PROJECTS-SERIALIZE', short_description: 'PROJECTS.TS.PROJECTS-SERIALIZE-SHORT-DESCRIPTION', description: "PROJECTS.TS.PROJECTS-SERIALIZE-DESCRIPTION", languages: ['Java'], 
+      images: ['assets/images/serializeJson_proj.png', 'assets/images/deserializeJson_proj.png']},
+
+    { title: 'PROJECTS.TS.PROJECTS-NICOLET', short_description: 'PROJECTS.TS.PROJECTS-NICOLET-SHORT-DESCRIPTION', description: "PROJECTS.TS.PROJECTS-NICOLET-DESCRIPTION", languages: ['Python'], 
+      images: ['assets/images/nicolet_proj.png', 'assets/images/nicolet1_proj.png', 'assets/images/nicolet2_proj.png']},
+
+    { title: 'PROJECTS.TS.PROJECTS-BEAUDOIN', short_description: 'PROJECTS.TS.PROJECTS-BEAUDOIN-SHORT-DESCRIPTION', description: "PROJECTS.TS.PROJECTS-BEAUDOIN-DESCRIPTION", languages: ['Python'], 
+      images: ['assets/images/Agent-Beaudoin-UI.png', 'assets/images/Agent-Beaudoin-Input.png', 'assets/images/Agent-Beaudoin-Output.png']},
+
+    { title: 'PROJECTS.TS.PROJECTS-MASTERS', short_description: 'PROJECTS.TS.PROJECTS-MASTERS-SHORT-DESCRIPTION', description: "PROJECTS.TS.PROJECTS-MASTERS-DESCRIPTION", languages: ['Python'], 
+      images: null}
   ]
 
   getLanguageColor(name: string): string {

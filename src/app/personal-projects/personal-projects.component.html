@@ -11,7 +11,7 @@
 
     <mat-card-actions align="end">
       <button mat-button (click)="toggleExpand(project.title)">
-        Plus de détails
+        {{ "PROJECTS.HTML.MORE-DETAILS-BUTTON" | translate }}
         <mat-icon>{{ isExpanded(project.title) ? 'expand_less' : 'expand_more' }}</mat-icon>
       </button>
     </mat-card-actions>
@@ -19,18 +19,19 @@
     <mat-expansion-panel [expanded]="isExpanded(project.title)" hideToggle>
       <mat-expansion-panel-header *ngIf="false"></mat-expansion-panel-header>
       <p class="description">{{ project.description | translate }}</p>
+      <!--If project.images == null, then there is no images to display for the project-->
+      @if (project.images != null) {
+        <div class="image-slider">
+            <button mat-icon-button (click)="prevImage(project.title, project.images)">
+            <mat-icon>chevron_left</mat-icon>
+          </button>
+          <img [src]="project.images[imageIndexes.get(project.title) ?? 0]" class="slider-image" />
 
-      <div class="image-slider">
-        <button mat-icon-button (click)="prevImage(project.title, project.images)">
-          <mat-icon>chevron_left</mat-icon>
-        </button>
-
-        <img [src]="project.images[imageIndexes.get(project.title) ?? 0]" class="slider-image" />
-
-        <button mat-icon-button (click)="nextImage(project.title, project.images)">
-          <mat-icon>chevron_right</mat-icon>
-        </button>
-      </div>
+          <button mat-icon-button (click)="nextImage(project.title, project.images)">
+            <mat-icon>chevron_right</mat-icon>
+          </button>
+        </div>
+      }
     </mat-expansion-panel>
   </mat-card>
 </div>
