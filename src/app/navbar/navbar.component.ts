@@ -26,13 +26,36 @@ export class NavbarComponent {
     this.translate.use(lang);
   }
 
-  openURL(url: string){
-  if (this.translate.currentLang === 'en') {
-    window.open(url + "-EN.pdf", "_blank");
-  }
-  else if( this.translate.currentLang === 'fr') {
-    window.open(url + "-FR.pdf", "_blank");
-  } else{
-    window.open(url + ".pdf", "_blank");}
+  openURL(url: string) {
+    const lang = this.translate.currentLang;
+    const enUrl = `${url}-EN.pdf`;
+    const frUrl = `${url}-FR.pdf`;
+    
+    if (lang === 'en') {
+      fetch(enUrl, { method: 'HEAD' })
+        .then(response => {
+          if (response.ok) {
+            window.open(enUrl, '_blank');
+          } else {
+            window.open(frUrl, '_blank');
+          }
+        })
+        .catch(() => {
+          window.open(`${url}.pdf`, '_blank');
+        });
+
+    } else if (lang === 'fr') {
+      fetch(frUrl, { method: 'HEAD' })
+        .then(response => {
+          if (response.ok) {
+            window.open(frUrl, '_blank');
+          } else {
+            window.open(enUrl, '_blank');
+          }
+        })
+        .catch(() => {
+          window.open(`${url}.pdf`, '_blank');
+        });
+    }
   }
 }
