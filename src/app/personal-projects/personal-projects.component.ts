@@ -74,6 +74,8 @@ export class PersonalProjectsComponent {
       images: ['assets/images/Agent-Beaudoin-UI.png', 'assets/images/Agent-Beaudoin-Input.png', 'assets/images/Agent-Beaudoin-Output.png']},
 
     { title: 'PROJECTS.TS.PROJECTS-MASTERS', short_description: 'PROJECTS.TS.PROJECTS-MASTERS-SHORT-DESCRIPTION', description: "PROJECTS.TS.PROJECTS-MASTERS-DESCRIPTION", languages: ['Python'], 
+      images: null},
+    { title: 'PROJECTS.TS.PROJECTS-WINDOWS-BMR', short_description: 'PROJECTS.TS.PROJECTS-WINDOWS-BMR-SHORT-DESCRIPTION', description: "PROJECTS.TS.PROJECTS-WINDOWS-BMR-DESCRIPTION", languages: ['Python'],
       images: null}
   ]
 
