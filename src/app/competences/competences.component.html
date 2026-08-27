@@ -6,6 +6,7 @@
       <div class="element" *ngFor="let languagesSpoken of languagesSpoken">
         <img class="imgs" src="{{languagesSpoken.img}}" alt="{{ languagesSpoken.alt | translate }}" width="{{languagesSpoken.width}}">
         <h3 class="element_name">{{languagesSpoken.name | translate }}</h3>
+        <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(languagesSpoken) }" />
       </div>
     </div>
   </mat-card>
@@ -15,6 +16,7 @@
       <div class="element" *ngFor="let languagesProgramming of languagesProgramming">
         <img class="imgs" src="{{languagesProgramming.img}}" alt="{{languagesProgramming.alt | translate }}" width="{{languagesProgramming.width}}">
         <h3 class="element_name">{{languagesProgramming.name}}</h3>
+        <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(languagesProgramming) }" />
       </div>
     </div>
   </mat-card>
@@ -24,6 +26,7 @@
       <div class="element" *ngFor="let ide of ide">
         <img class="imgs" src="{{ide.img}}" alt="{{ide.alt | translate}}" width="{{ide.width}}">
         <h3 class="element_name">{{ide.name}}</h3>
+        <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(ide) }" />
       </div>
     </div>
   </mat-card>
@@ -33,6 +36,7 @@
       <div class="element" *ngFor="let frameworks of frameworks">
         <img class="imgs" src="{{frameworks.img}}" alt="{{frameworks.alt | translate}}" width="{{frameworks.width}}">
         <h3 class="element_name">{{frameworks.name}}</h3>
+        <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(frameworks) }" />
       </div>
     </div>
   </mat-card>
@@ -42,6 +46,7 @@
       <div class="element" *ngFor="let gitTools of gitTools">
         <img class="imgs" src="{{gitTools.img}}" alt="{{gitTools.alt | translate}}" width="{{gitTools.width}}">
         <h3 class="element_name">{{gitTools.name}}</h3>
+        <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(gitTools) }" />
       </div>
     </div>
   </mat-card>
@@ -51,6 +56,7 @@
       <div class="element" *ngFor="let gameEngines of gameEngines">
         <img class="imgs" src="{{gameEngines.img}}" alt="{{gameEngines.alt | translate}}" width="{{gameEngines.width}}">
         <h3 class="element_name">{{gameEngines.name}}</h3>
+        <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(gameEngines) }" />
       </div>
     </div>
   </mat-card>
@@ -60,6 +66,7 @@
       <div class="element" *ngFor="let operatingSystems of operatingSystems">
         <img class="imgs" src="{{operatingSystems.img}}" alt="{{operatingSystems.alt | translate}}" width="{{operatingSystems.width}}">
         <h3 class="element_name">{{operatingSystems.name}}</h3>
+        <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(operatingSystems) }" />
       </div>
     </div>
   </mat-card>
@@ -69,6 +76,7 @@
       <div class="element" *ngFor="let buildingTools of buildingTools">
         <img class="imgs" src="{{buildingTools.img}}" alt="{{buildingTools.alt | translate}}" width="{{buildingTools.width}}">
         <h3 class="element_name">{{buildingTools.name}}</h3>
+        <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(buildingTools) }" />
       </div>
     </div>
   </mat-card>
@@ -78,6 +86,7 @@
       <div class="element" *ngFor="let dbManagementSystems of dbManagementSystems">
         <img class="imgs" src="{{dbManagementSystems.img}}" alt="{{dbManagementSystems.alt | translate}}" width="{{dbManagementSystems.width}}">
         <h3 class="element_name">{{dbManagementSystems.name}}</h3>
+        <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(dbManagementSystems) }" />
       </div>
     </div>
   </mat-card>
@@ -87,6 +96,7 @@
       <div class="element" *ngFor="let serviceProviders of serviceProviders">
         <img class="imgs" src="{{serviceProviders.img}}" alt="{{serviceProviders.alt | translate}}" width="{{serviceProviders.width}}">
         <h3 class="element_name">{{serviceProviders.name}}</h3>
+        <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(serviceProviders) }" />
       </div>
     </div>
   </mat-card>
@@ -96,6 +106,7 @@
       <div class="element" *ngFor="let cloudComputingPlatforms of cloudComputingPlatforms">
         <img class="imgs" src="{{cloudComputingPlatforms.img}}" alt="{{cloudComputingPlatforms.alt | translate}}" width="{{cloudComputingPlatforms.width}}">
         <h3 class="element_name">{{cloudComputingPlatforms.name}}</h3>
+        <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(cloudComputingPlatforms) }" />
       </div>
     </div>
   </mat-card>
@@ -105,6 +116,7 @@
       <div class="element" *ngFor="let diverseTalentJobRelated of diverseTalentJobRelated">
         <img class="imgs" src="{{diverseTalentJobRelated.img}}" alt="{{diverseTalentJobRelated.alt | translate}}" width="{{diverseTalentJobRelated.width}}">
         <h3 class="element_name">{{diverseTalentJobRelated.name | translate}}</h3>
+        <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(diverseTalentJobRelated) }" />
       </div>
     </div>
   </mat-card>
@@ -114,7 +126,18 @@
       <div class="element" *ngFor="let diverseTalent of diverseTalent">
         <img class="imgs" src="{{diverseTalent.img}}" alt="{{diverseTalent.alt | translate}}" width="{{diverseTalent.width}}">
         <h3 class="element_name">{{diverseTalent.name | translate}}</h3>
+        <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(diverseTalent) }" />
       </div>
     </div>
   </mat-card>
 </div>
+
+<ng-template #proficiency let-level="level">
+  <div class="proficiency" role="meter" aria-valuemin="1" aria-valuemax="3"
+       [attr.aria-valuenow]="level" [attr.aria-valuetext]="getLevelLabel(level) | translate">
+    <div class="proficiency-bar" aria-hidden="true">
+      <span [style.width.%]="level * 33.333"></span>
+    </div>
+    <span class="proficiency-label">{{ getLevelLabel(level) | translate }}</span>
+  </div>
+</ng-template>

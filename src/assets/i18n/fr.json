@@ -24,7 +24,11 @@
       "CARD-TITLE-SERVICE-PROVIDERS": "Fournisseurs de services",
       "CARD-TITLE-CLOUD-COMPUTING-PLATFORMS": "Plateformes nuagiques",
       "CARD-TITLE-DIVERSE-TALENTS-JOB-RELATED": "Talents divers liés au travail",
-      "CARD-TITLE-DIVERSE-TALENTS": "Talents divers"
+      "CARD-TITLE-DIVERSE-TALENTS": "Talents divers",
+      "PROFICIENCY": "Niveau de compétence",
+      "LEVEL-BEGINNER": "Débutant",
+      "LEVEL-INTERMEDIATE": "Intermédiaire",
+      "LEVEL-PROFESSIONAL": "Professionnelle"
     },
     "TS": {
       "BUILDING-TOOLS-GRADLE-ALT": "Logo de Gradle",

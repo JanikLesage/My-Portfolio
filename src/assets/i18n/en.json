@@ -24,7 +24,11 @@
       "CARD-TITLE-SERVICE-PROVIDERS": "Service Providers",
       "CARD-TITLE-CLOUD-COMPUTING-PLATFORMS": "Cloud Computing Platforms",
       "CARD-TITLE-DIVERSE-TALENTS-JOB-RELATED": "Diverse Talents Related to Work",
-      "CARD-TITLE-DIVERSE-TALENTS": "Diverse Talents"
+      "CARD-TITLE-DIVERSE-TALENTS": "Diverse Talents",
+      "PROFICIENCY": "Proficiency level",
+      "LEVEL-BEGINNER": "Beginner",
+      "LEVEL-INTERMEDIATE": "Intermediate",
+      "LEVEL-PROFESSIONAL": "Professional"
 
     },
     "TS": {
