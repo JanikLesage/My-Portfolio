@@ -119,16 +119,19 @@
       "TEXT-DISCIPLINE": "Discipline: ",
       "TITLE-PROFESSIONAL-EXPERIENCES": "Expériences professionnelles",
       "TEXT-REFERENCE": "Référence: ",
-      "TEXT-REFERENCE-JOB": "Poste du référant: "
+      "TEXT-REFERENCE-JOB": "Poste du référant: ",
+      "MORE-DETAILS": "Plus de détails"
     },
     "TS": {
       "DIVERSE-EXPERIENCE-ZONE01-ROBOTIC": "Robotique Zone01",
       "DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-DISCIPLINE": "Olympique mondiale de la robotique",
       "DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-INFO": "Finaliste du championnat canadien",
+      "DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-DESCRIPTION": "Participation à l’Olympique mondiale de la robotique avec Zone01 Robotique, jusqu’à la finale du championnat canadien.",
       "DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-ALT": "Logo de Zone01 Robotique",
       "DIVERSE-EXPERIENCE-CODEJAM": "Codejam12",
       "DIVERSE-EXPERIENCE-CODEJAM-DISCIPLINE": "Choix libre",
       "DIVERSE-EXPERIENCE-CODEJAM-INFO": "Participant de la douzième édition de Codejam",
+      "DIVERSE-EXPERIENCE-CODEJAM-DESCRIPTION": "Participation à la douzième édition de Codejam dans la catégorie à choix libre.",
       "DIVERSE-EXPERIENCE-CODEJAM-ALT": "Logo de Codejam",
       "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-YEAR": "2016-2020",
       "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-JOB": "Préposé à l'entretien extérieur",
@@ -137,6 +140,7 @@
       "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-REFERENCE-JOB": "Patronne",
       "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-PHONE": "+1 (819) 228-5694",
       "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-ALT": "Logo de Équipement C. Lesage",
+      "PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-DESCRIPTION": "Durant cet emploi, j’étais responsable de la tonte et de l’entretien des pelouses. J’utilisais un tracteur à gazon et un coupe-bordure afin d’assurer une coupe uniforme, de soigner les contours des terrains et de maintenir les espaces verts propres et bien entretenus.",
       "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-YEAR": "2022-2023",
       "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-JOB": "Entretien et soin des plants",
       "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE": "Reboisement Mauricie",
@@ -144,6 +148,7 @@
       "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-REFERENCE-JOB": "Supérieur",
       "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-PHONE": "+1 (819) 374-3633",
       "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-ALT": "Logo de Reboisement Mauricie",
+      "PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-DESCRIPTION": "À titre d’employé à l’irrigation, j’étais responsable de surveiller, démarrer et arrêter les robots d’arrosage, ainsi que d’effectuer le traitement des plants en portant l’équipement de protection requis. Ce poste exigeait une excellente endurance physique en raison des déplacements rapides et constants sur le terrain.",
       "PROFESSIONAL-EXPERIENCE-NICOLET-YEAR": "été 2024",
       "PROFESSIONAL-EXPERIENCE-NICOLET-JOB": "Développeur en IA, stage en informatique",
       "PROFESSIONAL-EXPERIENCE-NICOLET": "Ville de Nicolet",
@@ -151,6 +156,7 @@
       "PROFESSIONAL-EXPERIENCE-NICOLET-REFERENCE-JOB": "Coordonatrice du bureau de la transition écologique et de l'innovation sociale",
       "PROFESSIONAL-EXPERIENCE-NICOLET-PHONE": "+1 (819) 293-6901, poste 1104",
       "PROFESSIONAL-EXPERIENCE-NICOLET-ALT": "Logo de la Ville de Nicolet",
+      "PROFESSIONAL-EXPERIENCE-NICOLET-DESCRIPTION": "Durant mon stage à la Ville de Nicolet, j’ai développé une application d’apprentissage automatique visant à prédire l’évolution de différents indicateurs socio-environnementaux de la ville. L’application utilisait plusieurs algorithmes, notamment la régression linéaire et les réseaux de neurones, afin d’analyser des données provenant de diverses sources, telles que les données météorologiques, municipales et environnementales. Les résultats étaient présentés sous forme de visualisations, notamment des graphiques socio-environnementaux en anneau, des diagrammes à barres verticaux ou horizontaux, des graphiques linéaires et des diagrammes circulaires.",
       "PROFESSIONAL-EXPERIENCE-BEAUDOIN-YEAR": "été 2025",
       "PROFESSIONAL-EXPERIENCE-BEAUDOIN-JOB": "Développeur en IA, stage en informatique",
       "PROFESSIONAL-EXPERIENCE-BEAUDOIN": "Beaudoin Relation Publique",
@@ -158,13 +164,15 @@
       "PROFESSIONAL-EXPERIENCE-BEAUDOIN-REFERENCE-JOB": "Président",
       "PROFESSIONAL-EXPERIENCE-BEAUDOIN-PHONE": "+1 (819) 840-2829, poste 302",
       "PROFESSIONAL-EXPERIENCE-BEAUDOIN-ALT": "Logo de Beaudoin Relation Publique",
+      "PROFESSIONAL-EXPERIENCE-BEAUDOIN-DESCRIPTION": "Stage en développement d’intelligence artificielle chez Beaudoin Relations Publiques, dont le mandat consistait à analyser les méthodes de travail de l’entreprise et à proposer des solutions pour automatiser ses processus répétitifs. L’une des solutions mises en œuvre a été la création d’une application intégrant un agent conversationnel spécialisé dans la rédaction de communiqués de presse.",
       "PROFESSIONAL-EXPERIENCE-BMR-YEAR": "2026",
       "PROFESSIONAL-EXPERIENCE-BMR-JOB": "Développeur en IA",
       "PROFESSIONAL-EXPERIENCE-BMR": "BMR",
       "PROFESSIONAL-EXPERIENCE-BMR-REFERENCE": "M. Jean-François St-Yves",
-      "PROFESSIONAL-EXPERIENCE-BMR-REFERENCE-JOB": "TODO",
+      "PROFESSIONAL-EXPERIENCE-BMR-REFERENCE-JOB": "Directeur aux projets spéciaux",
       "PROFESSIONAL-EXPERIENCE-BMR-PHONE": "+1 (819) 350-3035",
-      "PROFESSIONAL-EXPERIENCE-BMR-ALT": "Logo de BMR"
+      "PROFESSIONAL-EXPERIENCE-BMR-ALT": "Logo de BMR",
+      "PROFESSIONAL-EXPERIENCE-BMR-DESCRIPTION": "Durant mon emploi chez BMR, j’étais responsable de développer une solution d’intelligence artificielle permettant d’automatiser l’analyse de plans architecturaux. L’application devait repérer les portes et les fenêtres, puis extraire leurs étiquettes, dimensions, quantités, emplacements et caractéristiques techniques. Je devais également associer les ouvertures aux légendes correspondantes, éliminer les doublons et faciliter la vérification des résultats. Mon travail comprenait la conception de l’architecture, le développement en Python ainsi que l’optimisation de la précision, de la vitesse et du coût de traitement."
     }
   },
   "FORMATION":{
