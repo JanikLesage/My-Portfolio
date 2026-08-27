@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import {MatCardModule} from '@angular/material/card';
 import { CommonModule } from '@angular/common';
+import { MatButtonModule } from '@angular/material/button';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatIconModule } from '@angular/material/icon';
 import {TranslateService, TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-experiences',
-  imports: [TranslatePipe, MatCardModule, CommonModule],
+  imports: [TranslatePipe, MatCardModule, CommonModule, MatButtonModule, MatExpansionModule, MatIconModule],
   templateUrl: './experiences.component.html',
   styleUrl: './experiences.component.css'
 })
@@ -15,29 +18,50 @@ export class ExperiencesComponent {
   experiences_diverses = [
     { img: 'assets/images/roboticZone01_icon.png', years: '2019-2020', name: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-ZONE01-ROBOTIC',
       discipline: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-DISCIPLINE', info: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-INFO',
+      description: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-DESCRIPTION',
       alt: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-ZONE01-ROBOTIC-ALT', width: 100 },
     { img: 'assets/images/codejam_icon.png', years: '2022', name: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-CODEJAM',
       discipline: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-CODEJAM-DISCIPLINE', info: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-CODEJAM-INFO',
+      description: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-CODEJAM-DESCRIPTION',
       alt: 'EXPERIENCE.TS.DIVERSE-EXPERIENCE-CODEJAM-ALT', width: 100 },
   ]
 
   experiences_professionnelles = [
     { img: 'assets/images/equipementCLesage_icon.png', years: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-YEAR', job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-JOB',
       name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-FERME-CLESAGE', reference_name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-REFERENCE', reference_phone: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-PHONE',
+      description: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-DESCRIPTION',
       reference_job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-REFERENCE-JOB', alt: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-FERME-CLESAGE-ALT', width: 100 },
     { img: 'assets/images/reboisementMauricie_icon.png', years: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-YEAR', job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-JOB',
       name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE', reference_name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-REFERENCE', reference_phone: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-PHONE',
+      description: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-DESCRIPTION',
       reference_job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-REFERENCE-JOB', alt: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-REBOISEMENT-MAURICIE-ALT', width: 100 },
     { img: 'assets/images/nicolet_icon.png', years: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-NICOLET-YEAR', job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-NICOLET-JOB',
       name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-NICOLET', reference_name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-NICOLET-REFERENCE',
+      description: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-NICOLET-DESCRIPTION',
       reference_job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-NICOLET-REFERENCE-JOB', reference_phone: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-NICOLET-PHONE', alt: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-NICOLET-ALT', width: 100 },
     {
       img: 'assets/images/beaudoinRP_icon.png', years: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BEAUDOIN-YEAR', job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BEAUDOIN-JOB',
       name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BEAUDOIN', reference_name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BEAUDOIN-REFERENCE', reference_phone: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BEAUDOIN-PHONE',
+      description: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BEAUDOIN-DESCRIPTION',
       reference_job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BEAUDOIN-REFERENCE-JOB', alt: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BEAUDOIN-ALT', width: 100 },
     {
       img: 'assets/images/BMR_icon.png', years: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BMR-YEAR', job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BMR-JOB',
       name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BMR', reference_name: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BMR-REFERENCE', reference_phone: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BMR-PHONE',
+      description: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BMR-DESCRIPTION',
       reference_job: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BMR-REFERENCE-JOB', alt: 'EXPERIENCE.TS.PROFESSIONAL-EXPERIENCE-BMR-ALT', width: 100 },
   ]
+
+  expandedExperiences = new Set<string>();
+
+  toggleDetails(name: string): void {
+    if (this.expandedExperiences.has(name)) {
+      this.expandedExperiences.delete(name);
+    } else {
+      this.expandedExperiences.add(name);
+    }
+  }
+
+  isExpanded(name: string): boolean {
+    return this.expandedExperiences.has(name);
+  }
 }

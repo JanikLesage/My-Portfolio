@@ -12,6 +12,16 @@
       </div>
     </div>
     <h3 class="date">{{ experiences_diverses.years | translate }}</h3>
+    <mat-card-actions align="end">
+      <button mat-button (click)="toggleDetails(experiences_diverses.name)">
+        {{ 'EXPERIENCE.HTML.MORE-DETAILS' | translate }}
+        <mat-icon>{{ isExpanded(experiences_diverses.name) ? 'expand_less' : 'expand_more' }}</mat-icon>
+      </button>
+    </mat-card-actions>
+    <mat-expansion-panel class="details-panel" [expanded]="isExpanded(experiences_diverses.name)" hideToggle>
+      <mat-expansion-panel-header *ngIf="false" />
+      <p>{{ experiences_diverses.description | translate }}</p>
+    </mat-expansion-panel>
   </mat-card>
   <h1 class="title">{{ 'EXPERIENCE.HTML.TITLE-PROFESSIONAL-EXPERIENCES' | translate }}</h1>
   <mat-card class="card_content" *ngFor="let experiences_professionnelles of experiences_professionnelles">
@@ -28,5 +38,15 @@
         </div>
       </div>
     <h3 class="date">{{ experiences_professionnelles.years | translate }}</h3>
+    <mat-card-actions align="end">
+      <button mat-button (click)="toggleDetails(experiences_professionnelles.name)">
+        {{ 'EXPERIENCE.HTML.MORE-DETAILS' | translate }}
+        <mat-icon>{{ isExpanded(experiences_professionnelles.name) ? 'expand_less' : 'expand_more' }}</mat-icon>
+      </button>
+    </mat-card-actions>
+    <mat-expansion-panel class="details-panel" [expanded]="isExpanded(experiences_professionnelles.name)" hideToggle>
+      <mat-expansion-panel-header *ngIf="false" />
+      <p>{{ experiences_professionnelles.description | translate }}</p>
+    </mat-expansion-panel>
   </mat-card>
 </div>
