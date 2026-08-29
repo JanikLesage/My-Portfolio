@@ -28,8 +28,10 @@ export class NavbarComponent {
 
   openURL(url: string) {
     const lang = this.translate.currentLang;
-    const enUrl = `${url}-EN.pdf`;
-    const frUrl = `${url}-FR.pdf`;
+    const cacheVersion = Date.now();
+    const enUrl = `${url}-EN.pdf?v=${cacheVersion}`;
+    const frUrl = `${url}-FR.pdf?v=${cacheVersion}`;
+    const fallbackUrl = `${url}.pdf?v=${cacheVersion}`;
     
     if (lang === 'en') {
       fetch(enUrl, { method: 'HEAD' })
@@ -41,7 +43,7 @@ export class NavbarComponent {
           }
         })
         .catch(() => {
-          window.open(`${url}.pdf`, '_blank');
+          window.open(fallbackUrl, '_blank');
         });
 
     } else if (lang === 'fr') {
@@ -54,7 +56,7 @@ export class NavbarComponent {
           }
         })
         .catch(() => {
-          window.open(`${url}.pdf`, '_blank');
+          window.open(fallbackUrl, '_blank');
         });
     }
   }
