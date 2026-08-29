@@ -107,5 +107,8 @@ export class CompetencesComponent {
     { img: 'assets/images/microSoudure_icon.png', name: 'SKILLS.TS.DIVERSE-TALENTS-MICRO-WELDING', alt: 'SKILLS.TS.DIVERSE-TALENTS-MICRO-WELDING-ALT', width: 100, level: 2 },
     { img: 'assets/images/physicalStrenght_icon.png', name: 'SKILLS.TS.DIVERSE-TALENTS-PHYSICAL-STRENGTH', alt: 'SKILLS.TS.DIVERSE-TALENTS-PHYSICAL-STRENGTH-ALT', width: 100, level: 3 },
     { img: 'assets/images/perfectionniste_icon.png', name: 'SKILLS.TS.DIVERSE-TALENTS-PERFECTIONISM', alt: 'SKILLS.TS.DIVERSE-TALENTS-PERFECIONISM-ALT', width: 100, level: 3 },
+    { img: 'assets/images/Charismatic_icon.png', name: 'SKILLS.TS.DIVERSE-TALENTS-CHARISMATIC', alt: 'SKILLS.TS.DIVERSE-TALENTS-CHARISMATIC-ALT', width: 100, level: 3 },
+    { img: 'assets/images/Autonome_icon.png', name: 'SKILLS.TS.DIVERSE-TALENTS-AUTONOMOUS', alt: 'SKILLS.TS.DIVERSE-TALENTS-AUTONOMOUS-ALT', width: 100, level: 3 },
+    { img: 'assets/images/TeamWork_icon.png', name: 'SKILLS.TS.DIVERSE-TALENTS-TEAMWORK', alt: 'SKILLS.TS.DIVERSE-TALENTS-TEAMWORK-ALT', width: 100, level: 3 },
   ]
 }

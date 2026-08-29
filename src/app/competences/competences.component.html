@@ -10,6 +10,16 @@
       </div>
     </div>
   </mat-card>
+    <mat-card class="card_content">
+    <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-DIVERSE-TALENTS' | translate }}</mat-card-title>
+    <div class="flex_content">
+      <div class="element" *ngFor="let diverseTalent of diverseTalent">
+        <img class="imgs" src="{{diverseTalent.img}}" alt="{{diverseTalent.alt | translate}}" width="{{diverseTalent.width}}">
+        <h3 class="element_name">{{diverseTalent.name | translate}}</h3>
+        <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(diverseTalent) }" />
+      </div>
+    </div>
+  </mat-card>
   <mat-card class="card_content">
     <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-PROGRAMMING-LANGUAGES' | translate }}</mat-card-title>
     <div class="flex_content">
@@ -117,16 +127,6 @@
         <img class="imgs" src="{{diverseTalentJobRelated.img}}" alt="{{diverseTalentJobRelated.alt | translate}}" width="{{diverseTalentJobRelated.width}}">
         <h3 class="element_name">{{diverseTalentJobRelated.name | translate}}</h3>
         <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(diverseTalentJobRelated) }" />
-      </div>
-    </div>
-  </mat-card>
-  <mat-card class="card_content">
-    <mat-card-title class="card_title">{{ 'SKILLS.HTML.CARD-TITLE-DIVERSE-TALENTS' | translate }}</mat-card-title>
-    <div class="flex_content">
-      <div class="element" *ngFor="let diverseTalent of diverseTalent">
-        <img class="imgs" src="{{diverseTalent.img}}" alt="{{diverseTalent.alt | translate}}" width="{{diverseTalent.width}}">
-        <h3 class="element_name">{{diverseTalent.name | translate}}</h3>
-        <ng-container *ngTemplateOutlet="proficiency; context: { level: getLevel(diverseTalent) }" />
       </div>
     </div>
   </mat-card>
